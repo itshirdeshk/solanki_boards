@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  admin:
+    build: ./admin
+    environment:
+      - VITE_BASE_URL=http://localhost:8080
+    ports:
+      - "3001:5173"
+    container_name: admin
+
+  home:
+    build: ./home
+    environment:
+      - VITE_BASE_URL=http://localhost:8080
+    ports:
+      - "3002:5173"
+    container_name: home
+
+  institution:
+    build: ./institution
+    environment:
+      - VITE_BASE_URL=http://localhost:8080/api
+    ports:
+      - "3003:5173"
+    container_name: institution
+
+  students:
+    build: ./students
+    environment:
+      - VITE_BASE_URL=http://localhost:8080/api
+    ports:
+      - "3004:5173"
+    container_name: students
