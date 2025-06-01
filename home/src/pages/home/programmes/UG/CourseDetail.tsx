@@ -6,7 +6,6 @@ import { Badge } from "../../../../components/ui/badge";
 import { 
   GraduationCap, 
   Clock, 
-  IndianRupee, 
   BookOpen, 
   CheckCircle2,
   Layout,
@@ -49,13 +48,6 @@ const CourseDetails = () => {
               <div>
                 <p className="text-sm opacity-75">Duration</p>
                 <p className="font-semibold">{typeof program.duration === 'string' ? program.duration : program.duration.minimum}</p>
-              </div>
-            </div>
-            <div className="flex items-center space-x-3">
-              <IndianRupee className="w-6 h-6" />
-              <div>
-                <p className="text-sm opacity-75">Annual Fee</p>
-                <p className="font-semibold">₹{program.annualFee.toLocaleString()}</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
