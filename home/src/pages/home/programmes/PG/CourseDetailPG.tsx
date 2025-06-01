@@ -5,8 +5,7 @@ import { Progress } from "../../../../components/ui/progress";
 import { Badge } from "../../../../components/ui/badge";
 import { 
   GraduationCap, 
-  Clock, 
-  IndianRupee, 
+  Clock,
   BookOpen, 
   CheckCircle2,
   Layout,
@@ -49,11 +48,6 @@ const CourseDetails = () => {
               </div>
             </div>
             <div className="flex items-center space-x-3">
-              <IndianRupee className="w-6 h-6" />
-              <div>
-                <p className="text-sm opacity-75">Annual Fee</p>
-                <p className="font-semibold">₹{program.programInfo.annualFee.toLocaleString()}</p>
-              </div>
             </div>
             <div className="flex items-center space-x-3">
               <GraduationCap className="w-6 h-6" />

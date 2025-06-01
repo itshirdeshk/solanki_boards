@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "../../../../components/ui/card";
 import { Badge } from "../../../../components/ui/badge";
-import { GraduationCap, Clock, IndianRupee } from 'lucide-react';
+import { GraduationCap, Clock } from 'lucide-react';
 import { PGprograms } from '../../../../data/course';
 import { PGCourse } from '../../../../lib/Types/Courses';    
 
@@ -43,12 +43,6 @@ const PG = () => {
                       <div className="flex items-center space-x-2">
                         <GraduationCap className="w-4 h-4 text-gray-500" />
                         <span className="text-sm">{course.curriculum.firstYear.length} Subjects/Year</span>
-                      </div>
-                      <div className="flex items-center space-x-2">
-                        <IndianRupee className="w-4 h-4 text-gray-500" />
-                        <span className="text-sm">
-                          {course.programInfo.annualFee ? `₹${course.programInfo.annualFee.toLocaleString()}/year` : 'Contact for fees'}
-                        </span>
                       </div>
                     </div>
 

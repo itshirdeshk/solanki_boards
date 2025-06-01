@@ -62,6 +62,7 @@ const Footer = () => {
                             <p>Registered With Niti Ayog (Govt. Of India) With Unique ID UP/2024/0414971 and MSME-UDYAM-UP-25-0003415 | Tax Exempt Under Section 12A & 80G Of The Income Tax Act Of India.</p>
                         </div>
                         {/* Institute Logos */}
+                        <h1 className="font-semibold font-semibold">PARTNERSHIPS & GLOBAL RECOGNITION</h1>
                         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                             {institutes.map((institute, index) => (
                                 <img

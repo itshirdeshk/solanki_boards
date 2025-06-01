@@ -11,10 +11,10 @@ const NumberSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
   
   const data: DataItem[] = [
-    { icon: <FaUserGraduate size={40} />, number: 126, heading: "STUDENTS" },
-    { icon: <FaUniversity size={40} />, number: 15, heading: "ACCREDITED INSTITUTES" },
-    { icon: <FaSchool size={40} />, number: 9, heading: "SCHOOL MEMBERSHIPS" },
-    { icon: <FaGlobe size={40} />, number: 12, heading: "GLOBAL MEMBERSHIPS" },
+    { icon: <FaUserGraduate size={40} />, number: 970, heading: "STUDENTS" },
+    { icon: <FaUniversity size={40} />, number: 27, heading: "ACCREDITED INSTITUTES" },
+    { icon: <FaSchool size={40} />, number: 15, heading: "SCHOOL MEMBERSHIPS" },
+    { icon: <FaGlobe size={40} />, number: 9, heading: "GLOBAL MEMBERSHIPS" },
   ];
 
   useEffect(() => {
