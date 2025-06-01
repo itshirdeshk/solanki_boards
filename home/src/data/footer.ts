@@ -1,25 +1,17 @@
-import institute1 from "../assets/images/patners/patner_logo_1.jpeg"
-// import institute2 from "../assets/images/patners/patner_logo_2.jpeg"
-import institute3 from "../assets/images/patners/patner_logo_3.jpeg"
-import institute4 from "../assets/images/patners/patner_logo_4.png"
-import institute5 from "../assets/images/patners/patner_logo_5.jpeg"
-import institute6 from "../assets/images/patners/patner_logo_6.jpeg"
-import institute7 from "../assets/images/patners/patner_logo_7.jpeg"
-import institute8 from "../assets/images/patners/patner_logo_8.png"
-import institute9 from "../assets/images/patners/patner_logo_9.png"
+import institute14 from "../assets/images/patners/partner_logo_14.jpg"
+import institute15 from "../assets/images/patners/partner_logo_15.jpg"
+import institute16 from "../assets/images/patners/partner_logo_16.jpg"
+import institute17 from "../assets/images/patners/partner_logo_17.jpg"
+import institute18 from "../assets/images/patners/partner_logo_18.jpg"
+import institute19 from "../assets/images/patners/partner_logo_19.jpg"
 // import institute10 from "../assets/images/patners/patner_logo_10.png"
 // import institute11 from "../assets/images/patners/patner_logo_11.jpg"
 
 export const institutes = [
-    { src: institute4, alt: "Institute 4" },
-    { src: institute8, alt: "Institute 8" },
-    { src: institute9, alt: "Institute 9" },
-    { src: institute3, alt: "Institute 3" },
-    { src: institute1, alt: "Institute 1" },
-    // { src: institute2, alt: "Institute 2" },
-    // { src: institute10, alt: "Institute 10" },
-    { src: institute5, alt: "Institute 5" },
-    { src: institute6, alt: "Institute 6" },
-    { src: institute7, alt: "Institute 7" },
-    // { src: institute11, alt: "Institute 11" },
+    { src: institute14, alt: "Institute 14" },
+    { src: institute15, alt: "Institute 15" },
+    { src: institute16, alt: "Institute 16" },
+    { src: institute17, alt: "Institute 17" },
+    { src: institute18, alt: "Institute 18" },
+    { src: institute19, alt: "Institute 19" },
 ];

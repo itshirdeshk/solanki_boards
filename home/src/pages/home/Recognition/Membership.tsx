@@ -39,9 +39,9 @@ const AccreditationCards = () => {
               <h2 className="text-xl font-semibold mb-2 line-clamp-2">
                 {membership.title}
               </h2>
-              <p className="text-gray-300 text-sm mb-3 line-clamp-3">
+              {/* <p className="text-gray-300 text-sm mb-3 line-clamp-3">
                 {membership.description}
-              </p>
+              </p> */}
               <a
                 href={`https://${membership.website}`}
                 target="_blank"
@@ -79,9 +79,9 @@ const AccreditationCards = () => {
                 <h2 className="text-2xl font-bold mb-4 text-gray-800">
                   {selectedMembership.title}
                 </h2>
-                <p className="text-gray-600 mb-6 whitespace-pre-line leading-relaxed">
+                {/* <p className="text-gray-600 mb-6 whitespace-pre-line leading-relaxed">
                   {selectedMembership.description}
-                </p>
+                </p> */}
                 <a
                   href={`https://${selectedMembership.website}`}
                   target="_blank"

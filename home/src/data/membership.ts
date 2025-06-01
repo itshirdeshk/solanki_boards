@@ -16,18 +16,12 @@ export const memberships = [
   {
     id: 11,
     title: "American Association for Higher Education & Accreditation (AAHEA)",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is proud to be a Member Organization of the American Association for Higher Education & Accreditation (AAHEA), a historic and respected body dedicated to advancing academic quality and innovation in higher education since 1870.
-
-This membership signifies SBCODL's ongoing commitment to international standards of excellence, continuous institutional improvement, and active participation in a global network of educational leaders. Through its affiliation with AAHEA, SBCODL demonstrates its dedication to educational quality, integrity, and lifelong learning.`,
     website: "https://www.aahea.org/",
     image: partner13
   },
   {
     id: 1,
-    title: "Global Education Accrediting Commission (GEAC)",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the Global Education Accrediting Commission (GEAC), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape. https://www.globaleducationaccreditingcommission.org/account/my-account.`,
+    title: "Global Education Accrediting Commission (GEAC)",  
     website: "www.globaleducationaccreditingcommission.org",
     image: partner1
   },
@@ -43,72 +37,48 @@ This membership reflects SBCODL's commitment to upholding international educatio
   {
     id: 3,
     title: "American Montessori Society",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the American Montessori Society (AMS), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.amshq.org/`,
     website: "www.amshq.org",
     image: partner3
   },
   {
     id: 4,
     title: "Mediterranean Association of International Schools (MAIS)",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the Mediterranean Association of International Schools (MAIS), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.mais-web.org/`,
     website: "www.mais-web.org",
     image: partner4
   },
   {
     id: 5,
     title: "Association of Business Administrators of Christian Colleges",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the Association of Business Administrators of Christian Colleges (ABACC), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.abacc.org/`,
     website: "www.abacc.org",
     image: partner5
   },
   {
     id: 6,
     title: "Australian Boarding Schools Association",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the Australian Boarding Schools Association (ABSA), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.boarding.org.au/`,
     website: "www.boarding.org.au",
     image: partner6
   },
   {
     id: 7,
     title: "Society for Mining, Metallurgy & Exploration",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the Society for Mining, Metallurgy & Exploration (SME), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.smenet.org/`,
     website: "https://www.smenet.org/",
     image: partner7
   },
   {
     id: 8,
     title: "⁠The American Ceramic Society",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the The American Ceramic Society (ACerS), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.ceramics.org/`,
     website: "https://ceramics.org/",
     image: partner8
   },
   {
     id: 9,
     title: "⁠International Association of University Presidents (IAUP)",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the International Association of University Presidents (IAUP), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.iaup.org/`,
     website: "https://www.iaup.org/",
     image: partner9
   },
   {
     id: 10,
     title: "⁠The Council of International Schools India (TCISI)",
-    description: `Solanki Brothers Council for Open and Distance Learning (SBCODL) is a Member Organization of the The Council of International Schools India (TCISI), a distinguished global community of leaders in higher education.
-
-This membership reflects SBCODL's commitment to upholding international educational standards and fostering collaboration within the global academic landscape.. https://www.google.com`,
     website: "https://www.google.com",
     image: partner10
   },

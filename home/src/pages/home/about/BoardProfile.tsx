@@ -6,172 +6,276 @@ import {
 } from "../../../components/ui/card";
 import { ScrollArea } from "../../../components/ui/scroll-area";
 import { Separator } from "../../../components/ui/separator";
-import { BookOpen, GraduationCap, Globe, Users, Award } from 'lucide-react';
+import { BookOpen, GraduationCap, Globe, Users, Award, Building2, Shield, Target, Heart, Lightbulb } from 'lucide-react';
 
 const InstitutionalProfile = () => {
   return (
-    <div className=" mx-auto p-6 space-y-6 bg-white">
+    <div className="mx-auto p-6 space-y-6 bg-white">
       {/* Header Section */}
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-primary mb-2">
           Solanki Brothers Council for Open and Distance Learning (SBCODL)
         </h1>
         <p className="text-xl text-primary">
-          Pioneering Excellence in Open and Distance Education
+          Empowering Learners, Enriching Lives
         </p>
       </div>
 
       {/* Main Info Cards */}
       <div className="grid md:grid-cols-2 gap-6">
-        {/* About Card */}
+        {/* Introduction Card */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <BookOpen className="h-5 w-5" />
-              Institutional Profile
+              Introduction
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p className="text-md text-muted-foreground mb-4">
-              SBCODL is a pioneering autonomous educational body that has been established in 2022 with the sole aim of enhancing quality education through innovative teaching methodologies. SBCODL is an ISO 9001:2015 certified institution under Section 8 of the Ministry of Corporate Affairs (MCA). It is dedicated to creating a learning environment that fosters academic excellence, inclusivity, and lifelong learning.
+            <p className="text-md mb-4">
+              Founded in 2022, the Solanki Brothers Council for Open and Distance Learning (SBCODL) is an autonomous and pioneering educational council established as a Section 8 Non-Profit Entity under the Companies Act of India. Officially registered with the NITI Aayog, Government of India (Unique ID: UP/2024/0414971), SBCODL also holds MSME registration (UDYAM-UP-25-0003415) and is approved for tax exemptions under Sections 12A and 80G of the Income Tax Act, supporting its philanthropic mission.
             </p>
+            <p className="text-md">
+              Headquartered in Farrukhabad, Uttar Pradesh, SBCODL is dedicated to democratizing education by offering accessible, inclusive, and technology-enabled learning through flexible open and distance education programs. It addresses educational barriers and provides quality learning opportunities to students regardless of geographic, social, or economic limitations.
+            </p>
+          </CardContent>
+        </Card>
+
+        {/* Vision and Mission Card */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Target className="h-5 w-5" />
+              Vision and Mission
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <h3 className="font-semibold mb-2">Vision</h3>
+              <p className="text-md">
+                To become a globally recognized institution in open and distance education, empowering learners through innovative, affordable, and inclusive learning and contributing to a more just and educated world.
+              </p>
+            </div>
+            <Separator />
+            <div>
+              <h3 className="font-semibold mb-2">Mission</h3>
+              <ul className="list-disc list-inside text-md space-y-2">
+                <li>To ensure access to quality education for all, irrespective of location or socio-economic status.</li>
+                <li>To deliver globally benchmarked programs emphasizing knowledge, skills, and ethical values.</li>
+                <li>To integrate digital and interactive pedagogy for greater engagement and retention.</li>
+                <li>To build international partnerships that elevate academic standards.</li>
+                <li>To promote lifelong learning aligned with the global workforce and 21st-century skills.</li>
+              </ul>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Legal Status and Governance */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Shield className="h-5 w-5" />
+            Legal Status and Governance
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <ScrollArea className="h-48">
+            <ul className="space-y-2 text-md">
+              <li>Registered as a Section 8 Company (Non-Profit)</li>
+              <li>NITI Aayog Registered (UP/2024/0414971)</li>
+              <li>MSME Registered (UDYAM-UP-25-0003415)</li>
+              <li>12A & 80G Certified for donor tax benefits</li>
+              <li>Compliant with all Indian statutory educational norms</li>
+              <li>Operates as an independent educational council, not a traditional school or college</li>
+            </ul>
+          </ScrollArea>
+        </CardContent>
+      </Card>
+
+      {/* Academic Programs and Services */}
+      <div className="grid md:grid-cols-2 gap-6">
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <GraduationCap className="h-5 w-5" />
+              Academic Programs
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
             <div className="space-y-4">
               <div>
-                <h3 className="font-semibold mb-2">Vision and Mission</h3>
-                <p className="text-md">
-                  SBCODL envisages becoming the world's best institution on open and distance education by imparting quality education, skills, and confidence to the learners to learn and excel in the dynamic world. Through making learning affordable, accessible, and innovative, we want to bring that extra mile for education and ensure that students can excel academically and professionally, irrespective of their geographies or socio-economic backgrounds.
-                </p>
-                <p className="text-md mt-4">
-                  Our mission would redefine distance learning as:
-                </p>
-                <ul className="list-disc list-inside text-md">
-                  <li> Accessibility & Inclusivity: Where education will be available to all learners regardless of their geographical regions or background, ensuring equal learning opportunities.</li>
-                  <li> High-Quality Education: Structured and globally recognized programs from K-12 through higher education, promoting academic excellence.</li>
-                  <li> Innovative Teaching Methods: Fully integrated with modern digital tools, interactive learning content, and personalized academic support to enhance student engagement and learning retention.</li>
-                  <li> Building Strategic Global Partnerships: Establishing ties with international accrediting bodies, universities, and institutions to correspond with the highest educational standards.</li>
-                  <li> Lifelong Learning and Career Development: Through skills acquisition and knowledge endowments, meeting the global competitive labor market for students, fostering professional growth, entrepreneurship, and leadership.</li>
+                <h3 className="font-semibold mb-2">Higher Education</h3>
+                <ul className="list-disc list-inside text-md space-y-2">
+                  <li>Undergraduate & Postgraduate Programs in Commerce, Management, IT, and Humanities</li>
+                  <li>Skill-based Diploma & Advanced Diploma Programs</li>
+                  <li>Structured for working professionals and distance learners</li>
+                </ul>
+              </div>
+              <Separator />
+              <div>
+                <h3 className="font-semibold mb-2">Certificate Programs (Distance Mode)</h3>
+                <ul className="list-disc list-inside text-md space-y-2">
+                  <li>Short-term and vocational certificate courses</li>
+                  <li>Industry-relevant skills for employability</li>
+                  <li>Open to 10th/12th pass candidates and beyond</li>
                 </ul>
               </div>
             </div>
           </CardContent>
         </Card>
 
-        {/* Academic Programs Card */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <GraduationCap className="h-5 w-5" />
-              Academic Offerings
+              <Users className="h-5 w-5" />
+              Learner-Centric Services
             </CardTitle>
           </CardHeader>
-          <CardContent className="space-y-4">
-            <div>
-              <h3 className="font-semibold mb-2">K-12 Education</h3>
-              <p className="text-md">
-                Thorough online courses for grades Middle Programmes and Upper Programmes, using interactive and engaging learning resources.
-              </p>
-            </div>
-            <Separator />
-            <div>
-              <h3 className="font-semibold mb-2">Higher Education</h3>
-              <p className="text-md">
-                Undergraduate, Postgraduate, and Doctoral (Ph.D.) programs in a wide range of disciplines.
-              </p>
-            </div>
-            <Separator />
-            <div>
-              <h3 className="font-semibold mb-2">Specialized Degree/Certificate Programs</h3>
-                <div className="pl-4 space-y-2 text-md">
-                <div>
-                  <p className="font-medium">Certificate in Biblical Studies:</p>
-                  <p>Introduction to the Bible, Old and New Testament Foundations</p>
-                </div>
-                <div>
-                  <p className="font-medium">Diploma in Theology:</p>
-                  <p>Christian Ethics, Biblical Interpretation, and Church History</p>
-                </div>
-                <div>
-                  <p className="font-medium">B.A. in Ministry:</p>
-                  <p>Advanced Scriptural Analysis, Leadership in Ministry</p>
-                </div>
-                <div>
-                  <p className="font-medium">M.Div. in Theology:</p>
-                  <p>Apologetics, Biblical Hermeneutics, and Pastoral Counselling</p>
-                </div>
-              </div>
-            </div>
+          <CardContent>
+            <ul className="space-y-2 text-md">
+              <li>Flexible Learning Schedules</li>
+              <li>24/7 Learning Portals with recorded lectures, eBooks, assessments</li>
+              <li>Personal Academic Mentorship</li>
+              <li>Career Guidance & Job Preparation</li>
+              <li>International Student Exchange opportunities</li>
+              <li>Tech Tools: LMS, AI Analytics, Virtual Labs</li>
+            </ul>
           </CardContent>
         </Card>
       </div>
 
-      {/* Global Memberships Section */}
+      {/* Global Partnerships */}
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Globe className="h-5 w-5" />
-            Global Memberships & Accreditations
+            Global MoU Partners
           </CardTitle>
         </CardHeader>
         <CardContent>
           <ScrollArea className="h-48">
             <ul className="space-y-2 text-md">
-              <li>Partner membership The Global Education Accrediting Commission (GEAC)</li>
-              <li>International Association for Biblical Education</li>
-              <li>American Montessori Society</li>
-              <li>Mediterranean Association of International Schools (MAIS)</li>
-              <li>Association of Business Administrators of Christian Colleges</li>
-              <li>Australian Boarding Schools Association</li>
-              <li>Society for Mining, Metallurgy & Exploration</li>
-              <li>The American Ceramic Society</li>
-              <li>International Association of University Presidents (IAUP)</li>
-              <li>The Council of International Schools India (TCISI)</li>
-              <li>International Association for College Admission Counseling (ACAC)</li>
+              <li>Global Interfaith University (USA)</li>
+              <li>GEPEA University</li>
+              <li>International Education Quality Accreditation Body (IEQAB)</li>
+              <li>Nigeria Council for Theological Studies and Christian Education (NICTSCE)</li>
+              <li>Distance Open Learning Programmes of Africa – Kenya (DOLPAK)</li>
+              <li>Distance Open Learning Programmes of Africa – East Africa (DOLPA-EA)</li>
             </ul>
           </ScrollArea>
         </CardContent>
       </Card>
 
-      {/* Commitment to Excellence Section */}
+      {/* Quality and Technology */}
       <div className="grid md:grid-cols-2 gap-6">
-        {/* Commitment to Excellence */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Award className="h-5 w-5" />
-              Commitment to Excellence
+              Quality Assurance and Academic Excellence
             </CardTitle>
           </CardHeader>
           <CardContent>
             <ul className="space-y-2 text-md">
-              <li>Quality training using development-appropriate methods.</li>
-              <li>Strong measuring assessment frameworks to track academic progress.</li>
-              <li>Comprehensive support services to ensure student success.</li>
-              <li>Adequate and secure facilities and technology resources for effective learning.</li>
-              <li>Sufficient and stable financial resources dedicated to continuous improvement.</li>
-              <li>Through the blending of traditional educational values with modern teaching approaches, SBCODL fosters curiosity, creativity, and lifelong learning among its students, preparing them to become confident, independent thinkers ready to contribute meaningfully to society.</li>
+              <li>Highly Qualified Faculty with domain expertise</li>
+              <li>Updated Curricula aligned with industry and global standards</li>
+              <li>Transparent Assessment Frameworks</li>
+              <li>Continuous Professional Development for educators</li>
+              <li>Data-Driven Student Performance Monitoring</li>
             </ul>
           </CardContent>
         </Card>
 
-        {/* Student-Centric Approach */}
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-              <Users className="h-5 w-5" />
-              Student-Centric Approach
+              <Lightbulb className="h-5 w-5" />
+              Technology & Infrastructure
             </CardTitle>
           </CardHeader>
           <CardContent>
             <ul className="space-y-2 text-md">
-              <li>Flexible learning pathways through open and distance modes.</li>
-              <li>International student exchange programs for cultural and academic enrichment.</li>
-              <li>Career counselling and placement assistance.</li>
-              <li>Comprehensive resources for academic success and personal growth.</li>
-              <li>Integration of technology to deliver engaging, interactive educational experiences.</li>
+              <li>Smart Classrooms & E-Learning Studios</li>
+              <li>Learning Management System (LMS) with centralized access</li>
+              <li>AI-Powered Virtual Labs & Analytics</li>
+              <li>Digital Libraries with global research access</li>
+              <li>Mobile Learning App for students on the go</li>
+              <li>Data Privacy & Security Compliance (IT Act, GDPR aligned)</li>
             </ul>
           </CardContent>
         </Card>
       </div>
+
+      {/* Community Impact */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Heart className="h-5 w-5" />
+            Community Engagement and Social Impact
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <ul className="space-y-2 text-md">
+            <li>Education Programs for disadvantaged groups</li>
+            <li>Scholarships & Financial Aid</li>
+            <li>Digital Literacy Missions in Rural India</li>
+            <li>Women's Empowerment through Vocational Training</li>
+            <li>Workshops aligned with UN Sustainable Development Goals (SDGs)</li>
+          </ul>
+        </CardContent>
+      </Card>
+
+      {/* Study Center Partnership */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <Building2 className="h-5 w-5" />
+            Partner with SBCODL: Become a Study Center
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-semibold mb-2">Benefits Include:</h3>
+              <ul className="list-disc list-inside text-md space-y-2">
+                <li>Use of SBCODL Brand and Curriculum</li>
+                <li>LMS and e-learning support</li>
+                <li>Faculty training and onboarding</li>
+                <li>Shared revenue model</li>
+                <li>Promotion and enrollment assistance</li>
+              </ul>
+            </div>
+            <Separator />
+            <div>
+              <h3 className="font-semibold mb-2">Process:</h3>
+              <ol className="list-decimal list-inside text-md space-y-2">
+                <li>Submit Expression of Interest (EOI)</li>
+                <li>Center evaluation by SBCODL</li>
+                <li>Affiliation/ Accreditation / MoU Agreement and onboarding</li>
+              </ol>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Conclusion */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="flex items-center gap-2">
+            <BookOpen className="h-5 w-5" />
+            Conclusion
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-md">
+            The Solanki Brothers Council for Open and Distance Learning (SBCODL) stands as a beacon of accessible, high-quality education in the 21st century. As a globally inclined, digitally empowered, and ethically governed non-profit educational council, SBCODL is shaping the future of learning—where every learner, regardless of background, has the right to succeed.
+          </p>
+          <p className="text-md mt-4 font-semibold">
+            SBCODL: Transforming Education, Transforming Lives.
+          </p>
+        </CardContent>
+      </Card>
     </div>
   );
 };
