@@ -156,8 +156,8 @@ const InstitutionalProfile = () => {
         <CardContent>
           <ScrollArea className="h-48">
             <ul className="space-y-2 text-md">
-              <li>Global Interfaith University (USA)</li>
-              <li>GEPEA University</li>
+              <li>International Federation of Private Universities (IFPU)</li>
+              <li>Mercosul Accreditation Agency (MACCA)</li>
               <li>International Education Quality Accreditation Body (IEQAB)</li>
               <li>Nigeria Council for Theological Studies and Christian Education (NICTSCE)</li>
               <li>Distance Open Learning Programmes of Africa – Kenya (DOLPAK)</li>
