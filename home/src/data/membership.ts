@@ -8,17 +8,10 @@ import partner7 from '../assets/images/patners/patner_logo_12.png';
 import partner8 from '../assets/images/patners/patner_logo_6.jpeg';
 import partner9 from '../assets/images/patners/patner_logo_7.jpeg';
 import partner10 from '../assets/images/patners/patner_logo_1.jpeg';
-import partner13 from '../assets/images/patners/partner_logo_13.jpg';
 // import partner11 from '../assets/images/patners/patner_logo_10.png';
 
 
 export const memberships = [
-  {
-    id: 11,
-    title: "American Association for Higher Education & Accreditation (AAHEA)",
-    website: "https://www.aahea.org/",
-    image: partner13
-  },
   {
     id: 1,
     title: "Global Education Accrediting Commission (GEAC)",  

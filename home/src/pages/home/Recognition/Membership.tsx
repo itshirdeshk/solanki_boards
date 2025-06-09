@@ -19,7 +19,7 @@ const AccreditationCards = () => {
   return (
     <div className="mx-auto p-6 bg-white rounded-lg">
       <h1 className="text-3xl font-bold mb-8 text-center text-primary">
-        Memberships
+        Memberships / International Collaborations
       </h1>
       <div className="grid grid-cols-1 gap-6">
         {memberships.map((membership) => (
