@@ -28,11 +28,11 @@ const AccreditationCards = () => {
             className="flex flex-col md:flex-row overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             onClick={() => openDialog(membership)}
           >
-            <div className="w-1/4 min-w-[200px] h-64 flex-shrink-0">
+            <div className="h-32 flex-shrink-0">
               <img
                 src={membership.image}
                 alt={membership.title}
-                className="w-full h-full object-fill"
+                className="w-32 h-32 object-fill"
               />
             </div>
             <CardContent className="flex-1 p-6">

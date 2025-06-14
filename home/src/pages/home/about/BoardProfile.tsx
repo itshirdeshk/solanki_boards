@@ -156,7 +156,10 @@ const InstitutionalProfile = () => {
         <CardContent>
           <ScrollArea className="h-48">
             <ul className="space-y-2 text-md">
+              <li>Union de Universidades de América Latina y el Caribe (UDUALC)</li>
               <li>International Federation of Private Universities (IFPU)</li>
+              <li>European Association for Higher Education Advancement (EAHEA)</li>
+              <li>International Association for Quality Assurance in Pre-Tertiary and Higher Education (QAHE)</li>
               <li>Mercosul Accreditation Agency (MACCA)</li>
               <li>International Education Quality Accreditation Body (IEQAB)</li>
               <li>Nigeria Council for Theological Studies and Christian Education (NICTSCE)</li>
