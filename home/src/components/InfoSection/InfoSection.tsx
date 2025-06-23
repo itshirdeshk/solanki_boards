@@ -46,7 +46,7 @@ const InfoSection = () => {
 
         <div className="flex flex-col items-center gap-4 mb-8 px-4">
           <p className="text-gray-700 text-center">
-            For admission in Middle Programmes,Upper Programmes, Diploma,Undergraduate ,Postgraduate and Certificate Courses, candidates are required to submit scanned copies
+            For admission in Diploma,Undergraduate, Postgraduate and Certificate Courses, candidates are required to submit scanned copies
             of original documents listed while registering for admission. To see the list of documents click below.
           </p>
           <Link to="/admission">
