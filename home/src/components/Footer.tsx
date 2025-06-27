@@ -69,7 +69,7 @@ const Footer = () => {
                                     key={index}
                                     src={institute.src}
                                     alt={institute.alt}
-                                    className="w-8 h-8 bg-white md:w-12 md:h-12  hover:scale-105 transition-transform rounded-md object-contain"
+                                    className="lg:w-16 h-16 bg-white md:w-12 md:h-12  hover:scale-105 transition-transform rounded-md object-contain"
                                 />
                             ))}
                         </div>
