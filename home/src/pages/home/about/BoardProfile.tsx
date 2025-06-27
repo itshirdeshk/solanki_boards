@@ -150,8 +150,9 @@ const BoardProfile = () => {
             <li>Mercosul Accreditation Agency (MACCA)</li>
             <li>Independent Institute of Accreditation, Rating and Certification (IARC)</li>
             <li>International Conference on Evaluating and Enhancing Quality Assurance System in Higher Education (RIQASHE)</li>
+            <li>Independent Accreditation Agency "Bilim-Standard"</li>
             <li>European Association for Higher Education Advancement (EAHEA)</li>
-            <li>QAHE – International Association for Quality Assurance in Pre-Tertiary and Higher Education</li>
+            <li>QAHE - International Association for Quality Assurance in Pre-Tertiary and Higher Education</li>
             <li>International Federation of Private Universities (IFPU)</li>
             <li>International Education Quality Accreditation Body (IEQAB)</li>
             <li>Nigeria Council for Theological Studies and Christian Education (NICTSCE)</li>
