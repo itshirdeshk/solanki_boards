@@ -145,19 +145,22 @@ const BoardProfile = () => {
             SBCODL partners with quality bodies and accrediting agencies across continents. Highlights include:
           </p>
           <ul className="list-disc list-inside text-md space-y-2">
+            <li>State of Birland Government (BIR TAWIL)</li>
             <li>Union of Universities of Latin America and the Caribbean (UDUALC)</li>
             <li>Association for Accreditation of Dental Education Programs (DEPAD)</li>
             <li>Mercosul Accreditation Agency (MACCA)</li>
             <li>Independent Institute of Accreditation, Rating and Certification (IARC)</li>
             <li>International Conference on Evaluating and Enhancing Quality Assurance System in Higher Education (RIQASHE)</li>
-            <li>Independent Accreditation Agency "Bilim-Standard"</li>
+            <li>Independent Accreditation Agency Bilim-Standard</li>
+            <li>The Accreditation and Rating International Agency (ARIA)</li>
+            <li>The Agency for Higher Education Quality Assurance and Career Development (AKKORK)</li>
+            <li>Board of Quality Standards (BQS)</li>
             <li>European Association for Higher Education Advancement (EAHEA)</li>
             <li>QAHE - International Association for Quality Assurance in Pre-Tertiary and Higher Education</li>
             <li>International Federation of Private Universities (IFPU)</li>
             <li>International Education Quality Accreditation Body (IEQAB)</li>
             <li>Nigeria Council for Theological Studies and Christian Education (NICTSCE)</li>
-            <li>Distance Open Learning Programmes of Africa – Kenya (DOLPAK)</li>
-            <li>Distance Open Learning Programmes of Africa – East Africa (DOLPA-EA)</li>
+            <li>Distance Open Learning Programmes of Africa Kenya (DOLPAK)</li>
             <li>Association of Business Administrators of Christian Colleges (ABACC)</li>
             <li>International Association of University Presidents (IAUP)</li>
             <li>The Institute of Arts Management and Professional Studies (IAMPS)</li>
