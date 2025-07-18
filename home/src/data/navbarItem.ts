@@ -23,11 +23,6 @@ export const aboutDropdownItems = [
 
 export const recognitionDropdownItems = [
   {
-    title: "Membership",
-    href: "/membership-accreditation",
-    description: "Explore our memberships and accreditations that enhance our credibility.",
-  },
-  {
     title: "Recognitions",
     href: "/recognition",
     description: "Learn about the recognitions we have received for our excellence.",

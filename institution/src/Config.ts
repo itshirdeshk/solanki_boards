@@ -44,4 +44,4 @@ export enum alertTypeEnum {
 
 
 
-export const InstituteAmount = 1;
+export const InstituteAmount = 1000;
