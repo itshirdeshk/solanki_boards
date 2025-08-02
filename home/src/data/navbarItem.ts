@@ -38,8 +38,8 @@ export const recognitionDropdownItems = [
     description: "Discover our status as an autonomous institution and what it means for our students.",
   },
   {
-    title: "ISO Certification",
-    href: "/iso-certification",
+    title: "Certification",
+    href: "/certification",
     description: "Find out about our ISO certification and its significance.",
   },
 ]
@@ -130,6 +130,11 @@ export const councilItems = [
     title: "Executive Committee",
     href: "/executive-committee",
     description: "Eligibility and documentation requirements.",
+  },
+  {
+    title: "Professors",
+    href: "/professors",
+    description: "Professors and their contributions.",
   },
   {
     title: "Powers of SBCODL",

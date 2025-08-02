@@ -100,9 +100,9 @@ export function Navbar() {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <Link to="/faculty">
+            <Link to="/institutional-partnerships">
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Faculty
+                Institutional Partnerships
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>

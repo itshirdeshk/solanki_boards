@@ -32,7 +32,7 @@ import UG from "./pages/home/programmes/UG/UG";
 import Research from "./pages/home/programmes/Research";
 import PG from "./pages/home/programmes/PG/PG";
 import Certificate from "./pages/home/programmes/Certificate";
-import Faculty from "./pages/home/Faculty";
+import Faculty from "./pages/home/InstitutionalPartnerships";
 import ContactUs from "./pages/home/ContactUs";
 import StudentAdmissionForm from "./pages/home/StudentAdmissionForm";
 import CourseDetailPG from "./pages/home/programmes/PG/CourseDetailPG";
@@ -44,6 +44,9 @@ import Constitutional from "./pages/home/Recognition/Constitutional";
 import Autonomous from "./pages/home/Recognition/autonomous";
 import VisitorCounter from "./components/VisitorCounter";
 import FindInstitute from "./pages/home/accredited/FindInstitute";
+import InstitutionalPartnerships from "./pages/home/InstitutionalPartnerships";
+import Certification from "./pages/home/Recognition/Certification";
+import Professors from "./pages/home/council/Professors";
 
 // Initialize Google Analytics with your tracking ID
 ReactGA.initialize("G-WDZG6SYQFM"); // Replace with your actual Google Analytics measurement ID
@@ -129,6 +132,9 @@ function App() {
           <Route path="/constitutional-reliability" element={<Layout><Constitutional /></Layout>} />
           <Route path="/autonomous-institution" element={<Layout><Autonomous /></Layout>} />
           <Route path="/institutes/find" element={<Layout><FindInstitute /></Layout>} />
+          <Route path="/institutional-partnerships" element={<Layout><InstitutionalPartnerships /></Layout>} />
+          <Route path="/certification" element={<Layout><Certification /></Layout>} />
+          <Route path="/professors" element={<Layout><Professors /></Layout>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
