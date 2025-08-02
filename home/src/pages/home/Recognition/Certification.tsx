@@ -1,28 +1,37 @@
 import { Separator } from "../../../components/ui/separator";
 
-// Import certificate images (you can add more here as needed)
-// import CertificateImage1 from "../../../assets/images/certificates/certificate1.jpg";
-// import CertificateImage2 from "../../../assets/images/certificates/certificate2.jpg";
+// Import certificate images
+import IntegrityPledge from "../../../assets/images/certificates/Integrity_pledge.jpg";
+import ManavAdhikar from "../../../assets/images/certificates/Manav_Adhikar.jpg";
+import MahilaAdhikar from "../../../assets/images/certificates/Mahila_Adhikar.jpg";
+
+// Define Certificate interface
+interface Certificate {
+  id: number;
+  title: string;
+  image: string;
+  description: string;
+}
 
 const Certification = () => {
   // Certificate data - easily add more certificates here
-  const certificates = [
+  const certificates: Certificate[] = [
     {
       id: 1,
       title: "Integrity Pledge Certificate",
-      image: "/src/assets/images/certificates/Integrity_pledge.jpg", // Replace with actual image path
+      image: IntegrityPledge,
       description: "Integrity Pledge Certificate for commitment to ethical standards and integrity in education."
     },
     {
       id: 2,
       title: "Manav Adhikar Shapath Certificate",
-      image: "/src/assets/images/certificates/Manav_Adhikar.jpg", // Replace with actual image path
+      image: ManavAdhikar,
       description: "Manav Adhikar Shapath Certificate for upholding human rights and dignity in education."
     },
     {
       id: 3,
       title: "Mahila Adhikar Shapath Certificate",
-      image: "/src/assets/images/certificates/Mahila_Adhikar.jpg", // Replace with actual image path
+      image: MahilaAdhikar,
       description: "Mahila Adhikar Shapath Certificate for promoting women's rights and empowerment in education."
     },
     // Add more certificates here as needed
@@ -75,14 +84,29 @@ const Certification = () => {
 
               {/* Certificate Image */}
               <div className="px-6 pb-6">
-                <div className="w-full h-80 bg-gray-50 rounded-lg overflow-hidden border border-gray-200">
+                <div 
+                  className="w-full h-80 bg-gray-50 rounded-lg overflow-hidden border border-gray-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  onClick={() => {
+                    // Optional: Open image in modal or new window
+                    window.open(certificate.image, '_blank');
+                  }}
+                  onKeyDown={(e: React.KeyboardEvent<HTMLDivElement>) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      window.open(certificate.image, '_blank');
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`View ${certificate.title} in full size`}
+                >
                   <img
                     src={certificate.image}
-                    alt={certificate.title}
-                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-300 cursor-pointer"
-                    onClick={() => {
-                      // Optional: Open image in modal or new window
-                      window.open(certificate.image, '_blank');
+                    alt={`${certificate.title} - Certificate`}
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                    onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='400' viewBox='0 0 300 400'%3E%3Crect width='300' height='400' fill='%23f3f4f6' stroke='%23d1d5db' stroke-width='2'/%3E%3Ctext x='50%25' y='45%25' font-family='Arial, sans-serif' font-size='16' fill='%236b7280' text-anchor='middle' dy='.3em'%3ECertificate%3C/text%3E%3Ctext x='50%25' y='55%25' font-family='Arial, sans-serif' font-size='14' fill='%236b7280' text-anchor='middle' dy='.3em'%3EImage Not Available%3C/text%3E%3C/svg%3E";
                     }}
                   />
                 </div>
