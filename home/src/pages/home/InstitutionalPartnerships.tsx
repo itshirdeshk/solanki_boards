@@ -6,10 +6,10 @@ import IEQABUni from "../../assets/images/universities/IEQAB_Uni.jpg";
 import NICTSCEUni from "../../assets/images/universities/NICTSCE_Uni.jpg";
 import AssoOfEastAfricaUni from "../../assets/images/universities/Asso_Of_East_Africa_Uni.jpg";
 import GEPEAUni from "../../assets/images/universities/GEPEA_Uni.jpg";
-import AppletonUni from "../../assets/images/universities/Appleton_Uni.jpg";
 import IAMPSUni from "../../assets/images/universities/IAMPS_Uni.jpg";
 import IFatossUni from "../../assets/images/universities/IFatoss_Uni.jpg";
 import ProwessUni from "../../assets/images/universities/Prowess_Uni.jpg";
+import JamiUni from "../../assets/images/universities/Jami_Uni.jpg";
 
 const InstitutionalPartnerships = () => {
   return (
@@ -24,9 +24,7 @@ const InstitutionalPartnerships = () => {
             </h1>
             <p className="text-xl text-blue-100 max-w-4xl mx-auto">
               Institutional partnerships are instrumental in expanding our reach, promoting collaboration and elevating the quality and impact of 
-              our educational and research endeavours. These institutional partnerships have fostered interconnectedness, created 
-              opportunities for shared learning, benefiting not only Global Interfaith University, but also the global community that we seek to 
-              serve. Please find our Institutional Partners below.
+              our educational and research endeavours. These institutional partnerships have fostered interconnectedness, created opportunities for shared learning, and also benefiting the global community that we seek to serve. Please find our Institutional Partners below.
             </p>
           </div>
         </div>
@@ -82,7 +80,7 @@ const InstitutionalPartnerships = () => {
 
           <div className="flex flex-col items-center p-6 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow">
             <div className="w-40 h-40 mb-4 flex items-center justify-center">
-              <img src={AppletonUni} alt="Jami University" className="w-32 h-32 object-contain" />
+              <img src={JamiUni} alt="Jami University" className="w-32 h-32 object-contain" />
             </div>
             <h3 className="text-center font-medium text-gray-800">Jami University (Afghanistan)</h3>
           </div>

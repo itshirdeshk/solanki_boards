@@ -4,6 +4,7 @@ import { Separator } from "../../../components/ui/separator";
 import IntegrityPledge from "../../../assets/images/certificates/Integrity_pledge.jpg";
 import ManavAdhikar from "../../../assets/images/certificates/Manav_Adhikar.jpg";
 import MahilaAdhikar from "../../../assets/images/certificates/Mahila_Adhikar.jpg";
+import QualityStd from "../../../assets/images/certificates/Quality_Std.jpg";
 
 // Define Certificate interface
 interface Certificate {
@@ -33,6 +34,12 @@ const Certification = () => {
       title: "Mahila Adhikar Shapath Certificate",
       image: MahilaAdhikar,
       description: "Mahila Adhikar Shapath Certificate for promoting women's rights and empowerment in education."
+    },
+    {
+      id: 4,
+      title: "Quality Standard Certificate",
+      image: QualityStd,
+      description: "Quality Standard Certificate for admitted as an Accredited Member of the Board of Quality Standards."
     },
     // Add more certificates here as needed
   ];
