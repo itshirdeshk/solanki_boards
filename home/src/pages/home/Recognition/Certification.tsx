@@ -5,6 +5,14 @@ import IntegrityPledge from "../../../assets/images/certificates/Integrity_pledg
 import ManavAdhikar from "../../../assets/images/certificates/Manav_Adhikar.jpg";
 import MahilaAdhikar from "../../../assets/images/certificates/Mahila_Adhikar.jpg";
 import QualityStd from "../../../assets/images/certificates/Quality_Std.jpg";
+import BallsBridgeCert from "../../../assets/images/certificates/Ballsbridge_Cert.jpg";
+import BirlandCert from "../../../assets/images/certificates/Birland_Cert.jpg";
+import CIAMPCert from "../../../assets/images/certificates/CIAMP_Cert.jpg";
+import IAMPSCert from "../../../assets/images/certificates/IAMPS_Cert.jpg";
+import IEQABCert from "../../../assets/images/certificates/IEQAB_Cert.jpg";
+import InterfaithCert from "../../../assets/images/certificates/Interfaith_Cert.jpg";
+import GEPEACert from "../../../assets/images/certificates/GEPEA_Cert.jpg";
+import IFPUCert from "../../../assets/images/certificates/IFPU_Cert.jpg";
 
 // Define Certificate interface
 interface Certificate {
@@ -40,6 +48,54 @@ const Certification = () => {
       title: "Quality Standard Certificate",
       image: QualityStd,
       description: "Quality Standard Certificate for admitted as an Accredited Member of the Board of Quality Standards."
+    },
+    {
+      id: 5,
+      title: "Ballsbridge University Affiliation Certificate",
+      image: BallsBridgeCert,
+      description: "Affiliation Certificate with Ballsbridge University, enhancing our global educational partnerships."
+    },
+    {
+      id: 6,
+      title: "State of Birland Government Education Partner Certificate",
+      image: BirlandCert,
+      description: "State of Birland Government Education Partner Certificate, recognizing our collaboration with the Birland government in education."
+    },
+    {
+      id: 7,
+      title: "CIAMP Accrediation Certification",
+      image: CIAMPCert,
+      description: "CHARTERED INSTITUTE OF ARTS MANAGEMENT & PROFESSIONALS (CIAMPS) Accreditation Certification, validating our commitment to arts management and professional standards."
+    },
+    {
+      id: 8,
+      title: "IAMPS Recognition Certification",
+      image: IAMPSCert,
+      description: "THE INSTITUTE OF ARTS MANAGEMENT & PROFESSIONAL STUDIES (IAMPS) Recognition Certification, acknowledging our excellence in arts management and professional studies."
+    },
+    {
+      id: 9,
+      title: "IEQAB Partnership Certification",
+      image: IEQABCert,
+      description: "International Education Quality Accreditation Body (IEQAB) Partnership Certification, recognizing our partnership for maintaining high educational standards."
+    },
+    {
+      id: 10,
+      title: "Global Interfaith University Partnership Certification",
+      image: InterfaithCert,
+      description: "Global Interfaith University Partnership Certification, highlighting our commitment to interfaith education and collaboration across diverse communities."
+    },
+    {
+      id: 11,
+      title: "GEPEA University Partnership and Affiliation Certification",
+      image: GEPEACert,
+      description: "GEPEA University Partnership and Affiliation Certification, recognizing our partnership with the GEPEA University by metting IEQAC standards."
+    },
+    {
+      id: 12,
+      title: "IFPU Membership Certification",
+      image: IFPUCert,
+      description: "IFPU Membership Certification, acknowledging our membership in the International Federation of Private Universities (IFPU) for global educational collaboration."
     },
     // Add more certificates here as needed
   ];
