@@ -12,6 +12,7 @@ import institute36 from "../assets/images/patners/partner_logo_36.jpg"
 import institute37 from "../assets/images/patners/partner_logo_37.jpg"
 import institute38 from "../assets/images/patners/partner_logo_38.jpg"
 import institute39 from "../assets/images/patners/partner_logo_39.jpg"
+import institute40 from "../assets/images/patners/partner_logo_40.jpg"
 
 
 
@@ -19,6 +20,7 @@ export const institutes = [
     { src: institute39, alt: "Institute 39" },
     { src: institute28, alt: "Institute 28" },
     { src: institute34, alt: "Institute 34" },
+    { src: institute40, alt: "Institute 40" },
     { src: institute20, alt: "Institute 20" },
     { src: institute29, alt: "Institute 29" },
     { src: institute31, alt: "Institute 31" },

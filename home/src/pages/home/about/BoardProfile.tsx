@@ -148,6 +148,7 @@ const BoardProfile = () => {
             <li>State of Birland Government (BIR TAWIL)</li>
             <li>Union of Universities of Latin America and the Caribbean (UDUALC)</li>
             <li>Association for Accreditation of Dental Education Programs (DEPAD)</li>
+            <li>The Evaluation and Accreditation Association for Programs in the Faculties of Pharmacy (ECZAKDER)</li>
             <li>Mercosul Accreditation Agency (MACCA)</li>
             <li>Independent Institute of Accreditation, Rating and Certification (IARC)</li>
             <li>International Conference on Evaluating and Enhancing Quality Assurance System in Higher Education (RIQASHE)</li>
