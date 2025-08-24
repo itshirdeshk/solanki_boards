@@ -13,44 +13,53 @@ const BoardProfile = () => {
       </div>
       <Separator />
 
-      {/* I. Introduction */}
+      {/* 1. Introduction */}
       <Card>
         <CardHeader>
           <CardTitle>I. Introduction</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-md mb-2">
-            Established in 2022, the Solanki Brothers Council for Open and Distance Learning (SBCODL) is a non-governmental, non-profit educational council under the Government of India. We function as an independent accreditation, evaluation, and quality assurance body at both national and international levels, dedicated to advancing accessible, equitable, and quality learning across open, distance, hybrid, and campus-based education systems. from its headquarters in Farrukhabad, Uttar Pradesh.
+            Established in 2022, the Solanki Brothers Council for Open and Distance Learning (SBCODL) is a non-governmental, non-profit educational council, recognized under the Government of India. Headquartered in Farrukhabad, Uttar Pradesh, SBCODL operates as an independent body for accreditation, membership, evaluation, and quality assurance at both national and international levels.
+
+Our mission is to advance accessible, equitable, and high-quality education across open, distance, hybrid, vocational, tertiary, professional, and on-campus learning systems. Through its work, SBCODL actively addresses educational barriers by delivering flexible, inclusive, and digitally empowered learning opportunities.
           </p>
           <p className="text-md mb-2">
-            SBCODL is committed to enhancing quality in open, distance, hybrid, and on-campus education, spanning Vocational Program, Higher Education, tertiary, and professional programs. The council addresses educational barriers by delivering flexible, inclusive, and digitally empowered academic programs.
+            Beyond academic initiatives, SBCODL offers a comprehensive suite of services including:
           </p>
+          <ul className="list-disc list-inside text-md space-y-2">
+          <li>Institutional Accreditation – assuring standards of quality and excellence.</li>
+          <li>Program Accreditation – evaluating the academic rigor of specific courses and degrees.</li>
+          <li>Institutional Membership – fostering collaboration and global partnerships.</li>
+          <li>Evaluation Services & Institutional Audits – promoting transparency and accountability.</li>
+          <li>Capacity-Building Initiatives – strengthening leadership, governance, and academic practices.</li>
+          </ul>
           <p className="text-md">
-            In addition to academic operations, offering evaluation services, institutional audits, Institutional Accreditation, Institutional Membership, Program Accreditation and capacity-building initiatives nationally and internationally.
+            With a strong commitment to international collaboration, SBCODL positions itself as a hub of accreditation and membership services that connect institutions worldwide under a shared vision of quality, innovation, and lifelong learning.
           </p>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* II. Legal Standing and Recognition */}
+      {/* 2. Legal Standing and Recognition */}
       <Card>
         <CardHeader>
           <CardTitle>II. Legal Standing and Recognition</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Ministry of Corporate Affairs: non-governmental, non-profit educational council under the Government of India</li>
+            <li>Legal Structure: non-governmental, non-profit educational council under the Government of India</li>
             <li>NITI Aayog Registered: UP/2024/0414971</li>
             <li>MSME Registered: UDYAM-UP-25-0003415</li>
-            <li>Tax Exemption Certified: 12A & 80G (Income Tax Act)</li>
-            <li>Governed; independent accreditation, evaluation, and quality assurance body</li>
+            <li>Registered under Sections 12A & 80G of the Income Tax Act for charitable and educational purposes.</li>
+            <li>Governance: Functions as an independent accreditation, evaluation, and quality assurance body, nationally and internationally.</li>
             
           </ul>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* III. Vision and Mission */}
+      {/* 3. Vision and Mission */}
       <Card>
         <CardHeader>
           <CardTitle>III. Vision and Mission</CardTitle>
@@ -58,21 +67,21 @@ const BoardProfile = () => {
         <CardContent>
           <h3 className="font-semibold mb-2">Vision</h3>
           <p className="text-md mb-4">
-            To be a global leader in flexible learning and educational quality assurance, fostering access, innovation, and ethical excellence in lifelong learning.
+            To be a globally recognized leader in open, distance, and inclusive education, fostering academic excellence, innovation, and international collaboration to empower learners and institutions worldwide.
           </p>
           <h3 className="font-semibold mb-2">Mission</h3>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Expand access to quality education regardless of background</li>
-            <li>Build resilient digital learning ecosystems</li>
-            <li>Align educational outcomes with global standards and labour market demands</li>
-            <li>Support institutions through evaluation, benchmarking, and capacity-building</li>
-            <li>Foster global partnerships for continuous academic and quality enhancement</li>
+            <li>To provide accessible, equitable, and quality education across all levels, from school to higher education.</li>
+            <li>To establish and strengthen global partnerships that promote knowledge exchange, accreditation, and international cooperation.</li>
+            <li>To act as an independent accreditation and quality assurance body, upholding the highest standards of governance, transparency, and accountability.</li>
+            <li>To nurture lifelong learning opportunities through innovative pedagogy, research, and technology integration.</li>
+            <li>To contribute towards the creation of a globally competent and ethically responsible academic community.</li>
           </ul>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* IV. Academic and Capacity-Building Programs */}
+      {/* 4. Academic and Capacity-Building Programs */}
       <Card>
         <CardHeader>
           <CardTitle>IV. Academic and Capacity-Building Programs</CardTitle>
@@ -96,24 +105,31 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* V. Technology, Learning Infrastructure, and Support */}
+      {/* 5. Technology, Learning Infrastructure, and Support */}
       <Card>
         <CardHeader>
           <CardTitle>V. Technology, Learning Infrastructure, and Support</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="text-md mb-4">
+            The Solanki Brothers Council for Open and Distance Learning (SBCODL) leverages advanced digital technologies and modern infrastructure to ensure seamless delivery of education, accreditation, and evaluation services. Our systems are designed to meet the demands of open, distance, hybrid, and campus-based education in a rapidly evolving digital age.
+          </p>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>AI-powered Learning Management System (LMS)</li>
-            <li>Virtual classrooms and mobile learning tools</li>
-            <li>24/7 access to digital libraries and recorded lectures</li>
-            <li>Virtual labs and simulation-based assessments</li>
-            <li>Academic mentoring, career guidance, and e-counselling</li>
+            <li>Digital Platforms & LMS: A robust Learning Management System (LMS) supporting virtual classrooms, e-learning modules, assessments, and interactive learning tools.</li>
+            <li>Technology Integration: Use of AI-enabled tools, data analytics, and secure cloud solutions to monitor quality, enhance learning, and track outcomes.</li>
+            <li>Global Accessibility: Online portals for academic programs, accreditation services, membership applications, and quality assurance audits, ensuring worldwide access.</li>
+            <li>Learning Resources: Digital libraries, e-repositories, research databases, and open-access content to support academic excellence.</li>
+            <li>Student & Institutional Support: 24/7 helpdesk, counseling services, training workshops, and faculty development programs to strengthen both learners and institutions.</li>
+            <li>Infrastructure: Adequate facilities including conference rooms, lecture halls, computer labs, and reliable internet access to support blended and in-person activities.</li>
           </ul>
+           <p className="text-md mb-4">
+            This strong technological and infrastructural foundation allows SBCODL to promote equitable, scalable, and sustainable education worldwide.
+          </p>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* VI. Quality Assurance, Evaluation, and Accreditation Services */}
+      {/* 6. Quality Assurance, Evaluation, and Accreditation Services */}
       <Card>
         <CardHeader>
           <CardTitle>VI. Quality Assurance, Evaluation, and Accreditation Services</CardTitle>
@@ -135,7 +151,7 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* VII. We are Global Recognized by: */}
+      {/* 7. We are Global Recognized by: */}
       <Card>
         <CardHeader>
           <CardTitle>VII. We are Globally Recognized by:</CardTitle>
@@ -164,23 +180,36 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* VIII. Community Impact and Sustainability */}
+      {/* 8. Community Impact and Sustainability */}
       <Card>
         <CardHeader>
           <CardTitle>IX. Community Impact and Sustainability</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="text-md mb-2">
+            The Solanki Brothers Council for Open and Distance Learning (SBCODL) is deeply committed to creating lasting social value by bridging educational gaps and fostering inclusive growth. Our initiatives are designed not only to deliver high-quality education but also to empower individuals, families, and communities through knowledge, skills, and opportunities.
+          </p>
+           <p className="text-md mb-2">
+            We emphasize sustainability by aligning our programs with the United Nations Sustainable Development Goals (SDGs), particularly in promoting quality education (SDG 4), reducing inequalities (SDG 10), and fostering partnerships for development (SDG 17).
+          </p>
+          <p className="text-md mb-2">
+            Key dimensions of our community impact include:
+          </p>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Rural digital literacy missions</li>
-            <li>Scholarships and need-based aid</li>
-            <li>Women's vocational empowerment</li>
-            <li>SDG-aligned workshops (education, inclusion, and economic empowerment)</li>
+            <li>Inclusive Access: Extending education to underserved populations, rural learners, and marginalized groups.</li>
+            <li>Skill Development: Equipping learners with employable skills that directly contribute to local and global economies.</li>
+            <li>Social Empowerment: Supporting women, differently-abled learners, and first-generation students to achieve academic and professional success.</li>
+            <li>Sustainable Practices: Utilizing digital platforms and environmentally conscious practices to minimize carbon footprint in education delivery.</li>
+            <li>Global Engagement: Building collaborations with international partners to promote cross-cultural learning and knowledge exchange.</li>
           </ul>
+           <p className="text-md mb-2">
+            Through these initiatives, SBCODL ensures that education serves as a transformative tool—uplifting individuals while contributing to the long-term sustainability of societies.
+          </p>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* IX. Strategic Vision and Future Goals */}
+      {/* 9. Strategic Vision and Future Goals */}
       <Card>
         <CardHeader>
           <CardTitle>X. Strategic Vision and Future Goals</CardTitle>
@@ -201,7 +230,7 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* X. Why Accreditation/Membership with SBCODL? */}
+      {/* 10. Why Accreditation/Membership with SBCODL? */}
       <Card>
         <CardHeader>
           <CardTitle>X. Why Accreditation/Membership with SBCODL?</CardTitle>
@@ -225,7 +254,7 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* XI. Conclusion */}
+      {/* 11. Conclusion */}
       <Card>
         <CardHeader>
           <CardTitle>XIII. Conclusion</CardTitle>
