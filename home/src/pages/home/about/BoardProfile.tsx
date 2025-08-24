@@ -43,7 +43,7 @@ const BoardProfile = () => {
             <li>NITI Aayog Registered: UP/2024/0414971</li>
             <li>MSME Registered: UDYAM-UP-25-0003415</li>
             <li>Tax Exemption Certified: 12A & 80G (Income Tax Act)</li>
-            <li>Governed independently; independent accreditation, evaluation, and quality assurance body</li>
+            <li>Governed; independent accreditation, evaluation, and quality assurance body</li>
             
           </ul>
         </CardContent>
