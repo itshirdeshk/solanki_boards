@@ -36,14 +36,14 @@ const COE = () => {
             </p>
           </div>
           
-          <p className="font-semibold text-primary text-lg">
+          <div className="text-gray-800 leading-relaxed">
             <p className="mb-2">
               Sd/-
             </p>
             <p className="font-semibold text-primary text-lg">
               Controller of Examinations
             </p>
-           <p className="font-semibold text-primary text-lg">
+            <p className="font-semibold text-primary text-lg">
               Solanki Brothers Council for Open and Distance Learning (SBCODL)
             </p>
           </div>
