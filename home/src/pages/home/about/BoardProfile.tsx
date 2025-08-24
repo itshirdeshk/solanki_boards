@@ -26,7 +26,7 @@ const BoardProfile = () => {
             SBCODL is committed to enhancing quality in open, distance, hybrid, and on-campus education, spanning Vocational Program, Higher Education, tertiary, and professional programs. The council addresses educational barriers by delivering flexible, inclusive, and digitally empowered academic programs.
           </p>
           <p className="text-md">
-            In addition to academic operations, SBCODL also functions as an independent quality assurance and accreditation agency, offering evaluation services, institutional audits, Institutional Accreditation, Institutional Membership, Program Accreditation and capacity-building initiatives nationally and internationally.
+            In addition to academic operations, offering evaluation services, institutional audits, Institutional Accreditation, Institutional Membership, Program Accreditation and capacity-building initiatives nationally and internationally.
           </p>
         </CardContent>
       </Card>
@@ -164,30 +164,7 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* VIII. Areas of Collaboration (MoU / Partnership Proposals) */}
-      <Card>
-        <CardHeader>
-          <CardTitle>VIII. Areas of Collaboration (MoU / Partnership Proposals)</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-md mb-2">We propose collaboration in the following domains:</p>
-          <ul className="list-disc list-inside text-md space-y-2">
-            <li>Joint Membership Models: Cross-recognition between SBCODL and partner institutions for mutual visibility</li>
-            <li>Joint Accreditation Frameworks: Co-development and delivery of evaluation standards for specific sectors (TVET, HEI, teacher education, etc.)</li>
-            <li>Development of Joint QA Policies and tools for distance, hybrid, and open learning</li>
-            <li>Cooperation in Institutional and Program-level Evaluations</li>
-            <li>Observer Participation in accreditation and audit visits</li>
-            <li>Exchange of Best Practices in QA, standards setting, and regulation</li>
-            <li>Capacity-Building for Faculty, Assessors, and QA Officers</li>
-            <li>Co-hosting of International Conferences, QA workshops, webinars, and policy panels</li>
-            <li>Research on QA Trends, regulatory harmonization, and global benchmarking</li>
-            <li>Mutual Sharing of Assessment Tools, KPIs, self-study formats, and scoring rubrics</li>
-          </ul>
-        </CardContent>
-      </Card>
-      <Separator />
-
-      {/* IX. Community Impact and Sustainability */}
+      {/* VIII. Community Impact and Sustainability */}
       <Card>
         <CardHeader>
           <CardTitle>IX. Community Impact and Sustainability</CardTitle>
@@ -203,48 +180,61 @@ const BoardProfile = () => {
       </Card>
       <Separator />
 
-      {/* X. Strategic Vision and Future Goals */}
+      {/* IX. Strategic Vision and Future Goals */}
       <Card>
         <CardHeader>
           <CardTitle>X. Strategic Vision and Future Goals</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="text-md mb-2">
+            The Solanki Brothers Council for Open and Distance Learning (SBCODL) envisions becoming a global leader in advancing inclusive, accessible, and innovative education. Rooted in our mission of empowering learners through open, distance, hybrid, and campus-based education, we are committed to shaping a future where quality education transcends geographical, cultural, and socio-economic barriers.
+          </p>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Establishment of QA Councils across Asia, Africa, and Latin America</li>
-            <li>Introduction of accreditation portals</li>
-            <li>Joint/ Dual Accreditation/ Membership (TQF)</li>
-            <li>Expansion into Dual Degrees and Joint Diplomas</li>
-            <li>Development of Transnational Qualification Frameworks (TQF)</li>
+            <li>Global Expansion of Quality Assurance Frameworks:- Establish Quality Assurance Councils across Asia, Africa, and Latin America to harmonize standards and foster mutual recognition of academic excellence</li>
+            <li>Introduction of Digital Accreditation Portals:- Develop integrated, technology-driven platforms for accreditation, membership, and evaluation, enabling transparency, efficiency, and accessibility worldwide.</li>
+            <li>Joint and Dual Accreditation Initiatives:- Launch Joint/Dual Accreditation and Membership Programs with international councils and associations, creating pathways for dual degrees, joint diplomas, and transnational recognition.</li>
+            <li>Development of Transnational Qualification Frameworks (TQF):- Collaborate with global partners to build Transnational Qualification Frameworks that align with international benchmarks while respecting regional contexts.</li>
+            <li>Promotion of International Exchange and Collaboration:- Strengthen student, faculty, and institutional exchange programs, nurturing cross-cultural understanding and collaborative research opportunities.</li>
+            <li>Sustainability and Inclusivity in Education:-Integrate Sustainable Development Goals (SDGs) into our programs while ensuring that open, distance, hybrid, and campus-based education remains inclusive for marginalized and underserved communities.</li>
           </ul>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* XII. Why Partner with SBCODL? */}
+      {/* X. Why Accreditation/Membership with SBCODL? */}
       <Card>
         <CardHeader>
-          <CardTitle>XII. Why Partner with SBCODL?</CardTitle>
+          <CardTitle>X. Why Accreditation/Membership with SBCODL?</CardTitle>
         </CardHeader>
         <CardContent>
+          <p className="text-md mb-2">
+            Accreditation or membership with the Solanki Brothers Council for Open and Distance Learning (SBCODL) provides institutions with independent international recognition, credibility, and a gateway to a global community of educational excellence. As a non-governmental, non-profit educational council, SBCODL is dedicated to advancing innovation, inclusivity, and quality assurance across open, distance, hybrid, and campus-based learning systems.
+          </p>
+          <li>Key Benefits</li>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Access to an expanding international QA and accreditation network</li>
-            <li>Opportunities for joint branding, audits, recognitions, and co-accreditation models</li>
-            <li>Availability of customized QA frameworks, evaluation tools, and policy resources</li>
-            <li>Strategic promotion through SBCODL’s global and regional affiliations</li>
-            <li>Recognition and visibility via joint reports, co-hosted events, and institutional listings</li>
+            <li>Independent International Recognition:- SBCODL accreditation strengthens institutional reputation by certifying adherence to globally benchmarked standards of education and evaluation.</li>
+            <li>Global Networking & Partnerships:- Join a prestigious network of universities, colleges, and schools worldwide, creating opportunities for collaborations, joint programs, and academic exchanges.</li>
+            <li>Excellence in Quality Assurance:- Through independent evaluation and continuous monitoring, SBCODL ensures high standards in teaching, governance, student services, and institutional performance.</li>
+            <li>Joint & Dual Accreditation Programs:- Open pathways for dual degrees, joint diplomas, and cross-border recognition through collaborative accreditation with international councils and associations.</li>
+            <li>Flexible Learning Models Support:-Accreditation recognizes and validates institutions offering open, distance, hybrid, or campus-based education, encouraging innovation in learning delivery.</li>
+            <li>Global Qualification Framework Alignment:- Programs are aligned with Transnational Qualification Frameworks (TQF), enhancing international recognition and student mobility.</li>
+            <li>Institutional Growth & Capacity Building:-Accredited members benefit from leadership training, professional development programs, and academic capacity-building workshops.</li>
+            <li>Research, Exchange & Collaboration:-Enhance academic excellence through student/faculty exchanges, collaborative research, and international conferences hosted by SBCODL.</li>
           </ul>
         </CardContent>
       </Card>
       <Separator />
 
-      {/* XIII. Conclusion */}
+      {/* XI. Conclusion */}
       <Card>
         <CardHeader>
           <CardTitle>XIII. Conclusion</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-md mb-2">
-            The Solanki Brothers Council for Open and Distance Learning (SBCODL) is an ambitious and trusted organization for advancing education quality, global academic collaboration, and transformational learning models. With a firm commitment to ethics, inclusion, and global relevance, SBCODL welcomes institutions and agencies to join its journey as partners in excellence.
+            The Solanki Brothers Council for Open and Distance Learning (SBCODL) is more than a council—it is a global platform of trust, credibility, and innovation in education. Through internationally recognized accreditation and memberships, SBCODL ensures that institutions and learners gain access to quality benchmarks, global networks, and future-ready opportunities. Our strategic vision focuses on building excellence in teaching, research, governance, and student outcomes, while fostering partnerships across continents.
+
+By becoming accredited or a member with SBCODL, stakeholders not only achieve international recognition but also join a dynamic community committed to advancing education through collaboration, inclusivity, and continuous improvement. Together, we are shaping a sustainable, globally connected, and quality-driven future for education.
           </p>
           <p className="text-md font-semibold">SBCODL: Transforming Education, Transforming Lives.</p>
         </CardContent>
