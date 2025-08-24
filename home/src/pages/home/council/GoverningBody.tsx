@@ -22,7 +22,7 @@ const GoverningBody = () => {
         <Card className="mb-8">
           <CardContent className="pt-6">
             <p className="text-white text-lg">
-              The Governing Body of SBCODL constitutes dedicated professionals toward strategic leadership and ethical governance through fostering excellence in open and distance education. Roles and responsibilities constituting the governed body are reflected in the layout below.
+              The Governing Body of SBCODL is composed of dedicated professionals committed to strategic leadership, ethical governance, and fostering excellence across education and research. It ensures that SBCODL remains a trusted authority in university, college, and school accreditation and membership, strengthening global academic standards.
             </p>
           </CardContent>
         </Card>
@@ -64,7 +64,7 @@ const GoverningBody = () => {
           </CardHeader>
           <CardContent>
             <p className="text-white text-lg">
-              The Governing Body of the Solanki Brothers Council for Open and Distance Learning (SBCODL) holds the ultimate responsibility for ensuring the integrity, sustainability, and effectiveness of the Council’s mission. Its primary role is to provide strategic direction, uphold accountability, and safeguard the Council’s values while fostering innovation and growth.
+              The roles and responsibilities of the Governing Body are reflected below:
             </p>
              <p className="text-white text-lg">
               Key Responsibilities:
@@ -73,8 +73,8 @@ const GoverningBody = () => {
               <li>Strategic Leadership – Define the vision, mission, and long-term goals of SBCODL.</li>
               <li>Policy Formulation – Approve and oversee governance, academic, and operational policies.</li>
               <li>Financial Oversight – Ensure accountability, transparency, and sustainability in financial management.</li>
-              <li>University, College & School Accreditation – Guide and approve processes for institutional accreditation, quality audits, and compliance with national and international standards.</li>
-              <li>Membership Development – Facilitate and secure memberships in global educational associations, councils, and agencies across schools, colleges, and universities.</li>
+              <li>Oversight of Accreditation – Supervising fair, transparent, and independent accreditation of universities, colleges, and schools.</li>
+              <li>Membership Governance – Approving institutional memberships and ensuring alignment with SBCODL’s standards.</li>
               <li>Ethical Governance – Uphold integrity, fairness, and compliance with laws and statutory requirements.</li>
               <li>Academic Quality Assurance – Oversee academic frameworks, curriculum standards, and evaluation systems.</li>
               <li>Infrastructure & Technology – Ensure adequacy of physical facilities, digital platforms, and learning resources.</li>
