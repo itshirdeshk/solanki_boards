@@ -14,7 +14,7 @@ import institute38 from "../assets/images/patners/partner_logo_38.jpg"
 import institute39 from "../assets/images/patners/partner_logo_39.jpg"
 import institute40 from "../assets/images/patners/partner_logo_40.jpg"
 
-
+import institute41 from "../assets/images/patners/partner_logo_45.jpeg"
 
 export const institutes = [
     { src: institute39, alt: "Institute 39" },
@@ -32,4 +32,5 @@ export const institutes = [
     { src: institute33, alt: "Institute 33" },
     { src: institute30, alt: "Institute 30" },
     { src: institute21, alt: "Institute 21" },
+    { src: institute41, alt: "Institute 41" },
 ];
