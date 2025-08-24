@@ -63,12 +63,27 @@ const GoverningBody = () => {
             <CardTitle className="text-2xl ">Core Responsibilities of the Governing Body</CardTitle>
           </CardHeader>
           <CardContent>
+            <p className="text-white text-lg">
+              The Governing Body of the Solanki Brothers Council for Open and Distance Learning (SBCODL) holds the ultimate responsibility for ensuring the integrity, sustainability, and effectiveness of the Council’s mission. Its primary role is to provide strategic direction, uphold accountability, and safeguard the Council’s values while fostering innovation and growth.
+            </p>
+             <p className="text-white text-lg">
+              Key Responsibilities:
+            </p>
             <ol className="list-decimal list-inside space-y-2">
-              <li>Developing the long-term vision and mission for SBCODL</li>
-              <li>Formulating governance, academic, and operation excellence frameworks</li>
-              <li>Effective use of financial and infrastructure resources</li>
-              <li>Open two-way communication, coordination, and liaison among the students, the faculty, and the partners of SBCODL</li>
-              <li>International engagement and presence with global organizations as a partner, member, etc.</li>
+              <li>Strategic Leadership – Define the vision, mission, and long-term goals of SBCODL.</li>
+              <li>Policy Formulation – Approve and oversee governance, academic, and operational policies.</li>
+              <li>Financial Oversight – Ensure accountability, transparency, and sustainability in financial management.</li>
+              <li>University, College & School Accreditation – Guide and approve processes for institutional accreditation, quality audits, and compliance with national and international standards.</li>
+              <li>Membership Development – Facilitate and secure memberships in global educational associations, councils, and agencies across schools, colleges, and universities.</li>
+              <li>Ethical Governance – Uphold integrity, fairness, and compliance with laws and statutory requirements.</li>
+              <li>Academic Quality Assurance – Oversee academic frameworks, curriculum standards, and evaluation systems.</li>
+              <li>Infrastructure & Technology – Ensure adequacy of physical facilities, digital platforms, and learning resources.</li>
+              <li>Monitoring & Evaluation – Regularly review institutional performance, outcomes, and global benchmarks.</li>
+              <li>Stakeholder Engagement – Foster collaboration with students, faculty, institutions, partners, and communities.</li>
+              <li>Capacity Building – Support professional development, research, and innovation initiatives.</li>
+              <li>SRisk Management – Identify and mitigate risks related to governance, academics, finances, and operations.</li>
+              <li>Sustainability & Social Responsibility – Ensure programs contribute to community development and global good.</li>
+              <li>Global Collaboration – Strengthen ties with international accreditation bodies, universities, and education councils for mutual recognition and exchange.</li>
             </ol>
 
             <p className="mt-6">
