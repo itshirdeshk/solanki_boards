@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import { ReactNode } from 'react';
 import ChildPolicy from "./pages/home/policyPages/ChildPolicy";
-import WhySBCODL from "./pages/home/WhySBCODL";
 import ChairmanMessage from "./pages/home/about/ChairmanMessage";
 import CookiePolicy from "./pages/home/policyPages/CookiePolicy";
 import PrivacyPolicy from "./pages/home/policyPages/PrivacyPolicy";
@@ -103,8 +102,7 @@ function App() {
           <Route path="/institute-registration" element={<Layout><InstituteRegistrationForm /></Layout>} />
           <Route path="/safeguarding-policy" element={<Layout><SafeguardingPolicy /></Layout>} />
           <Route path="/saferrecruitment-policy" element={<Layout><SaferRecruitmentPolicy /></Layout>} />
-          <Route path="/why-sbcodl" element={<Layout><WhySBCODL /></Layout>} />
-          <Route path="/chairman-message" element={<Layout><ChairmanMessage /></Layout>} />
+n          <Route path="/chairman-message" element={<Layout><ChairmanMessage /></Layout>} />
           <Route path="/board-profile" element={<Layout><BoardProfile /></Layout>} />
           <Route path="/coe" element={<Layout><COE /></Layout>} />
           <Route path="/mission-vision" element={<Layout><MissionVision /></Layout>} /> 
