@@ -154,7 +154,7 @@ Our mission is to advance accessible, equitable, and high-quality education acro
       {/* 7. We are Global Recognized by: */}
       <Card>
         <CardHeader>
-          <CardTitle>VII. We are Globally Recognized by:</CardTitle>
+          <CardTitle>VII. We are Recognized by:</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-md mb-2">
