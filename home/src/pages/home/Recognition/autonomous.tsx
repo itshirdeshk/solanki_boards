@@ -7,7 +7,7 @@ const Autonomous = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <h1 className="text-4xl w-fit p-4 mx-auto rounded-md bg-primary text-white font-bold mb-2 border-b-4 border-b-primary">
-            Features of Autonomous Institutions
+            Features of Independent Educational Council
           </h1>
           <Separator className="w-24 h-1 bg-blue-600 mx-auto my-4" />
           <p className="text-blue-800 font-medium">Excellence through academic freedom and innovation</p>
@@ -18,7 +18,7 @@ const Autonomous = () => {
           <CardContent className="pt-6">
             <h2 className="text-2xl font-bold mb-4 text-blue-200">Introduction</h2>
             <p className="text-lg leading-relaxed mb-4 ">
-              Autonomous institutions have a vital role to play in the improvement of higher education by providing academic freedom, innovation, and self-regulation. The University Grants Commission (UGC) emphasizes the significance of autonomy in its XI Plan profile by expressing that institutions enjoying academic and operational freedom are more likely to excel and achieve greater credibility. Granting funds to such institutions also enhances their capability to undertake high-quality education and research.
+              Independent institutions have a vital role to play in the improvement of higher education by providing academic freedom, innovation, and self-regulation. The University Grants Commission (UGC) emphasizes the significance of autonomy in its XI Plan profile by expressing that institutions enjoying academic and operational freedom are more likely to excel and achieve greater credibility. Granting funds to such institutions also enhances their capability to undertake high-quality education and research.
             </p>
           </CardContent>
         </Card>

@@ -6,11 +6,11 @@ const Welcome = () => {
             Welcome to our Official website of 
         </div>
         <div className='text-4xl text-primary font-bold dark:text-secondary'>
-        SOLANKI BROTHER BOARDS
+        SOLANKI BROTHER COUNCIL FOR OPEN AND DISTANCE LEARNING (SBCODL)
         </div>
         <div className="dark:text-secondary px-10 text-primary  text-center w-[72vw]">
-        An Autonomous Institution for Vocational and Industrial Education, Training and Skill Development Registered Under Govt. of India.<br/>
-        <span className='text-primary'>A venture of <b>NEXTGEN INDIA EDUCATIONAL DEVELOPMENT FOUNDATION</b> and Run by <b>NIED INTERNATIONAL</b></span>
+        SBCODL is a non-governmental, non-profit educational council established in 2022 under the Government of India. We function as an independent accreditation, evaluation, and quality assurance body.<br/>
+        <span className='text-primary'>A venture of <b>SBCODL</b> and Run by <b> SBCODL</b></span>
         </div>
     </div>
   )
