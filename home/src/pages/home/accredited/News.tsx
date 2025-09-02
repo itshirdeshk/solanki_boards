@@ -23,7 +23,7 @@ const latestNews = [
     date: "November 2-4, 2025",
     category: "Events",
     summary: "Transforming Education Through Innovation, Accreditation & Accessibility - Join universities, colleges, schools, accreditation agencies, and international partners.",
-    content: 'The 3rd SBCODL Annual International Conference is set to take place from November 2-4, 2025, at the Solanki Board Centre for Open and Distance Learning (SBCODL). For more details, check out the conference call for papers documents below.',
+    content: 'The 3rd SBCODL Annual International Conference is set to take place from November 2-4, 2025, at the Solanki Board Centre for Open and Distance Learning (SBCODL). For more details, check out the conference call for papers document below.',
     featured: true,
     icon: Globe,
     images: [],

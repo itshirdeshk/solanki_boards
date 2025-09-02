@@ -81,7 +81,7 @@ const EventRegistration = () => {
     designation: "",
     guardianName: "",
     guardianPhone: "",
-    guardianRelation: "Parent",
+    guardianRelation: "",
     emergencyContactName: "",
     emergencyContactPhone: "",
     emergencyContactRelation: "",
