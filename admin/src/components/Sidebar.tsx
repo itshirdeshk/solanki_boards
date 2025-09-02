@@ -10,7 +10,8 @@ import {
   Settings,
   IndianRupee,
   Menu,
-  X
+  X,
+  Calendar
 } from 'lucide-react';
 import logo from "../assets/logo.png"
 import {
@@ -62,6 +63,14 @@ const Sidebar = () => {
         { name: "Fee Payment", path: "/institute-fee-payment" },
         { name: "All Institutes", path: "/all-institutes" },
         // { name: "Institute Details", path: "/institute-details" },
+      ]
+    },
+    {
+      title: "Events",
+      path: "/events",
+      icon: <Calendar className="h-5 w-5" />,
+      items: [
+        { name: "Event Registrations", path: "/event-registrations" },
       ]
     },
     {

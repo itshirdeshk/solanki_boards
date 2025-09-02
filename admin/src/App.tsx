@@ -5,6 +5,8 @@ import Layout from './Layout'
 import Home from './Pages/Home'
 import AllInstituteDetails from './Pages/AllInstituteDetails'
 import AllStudentDetails from './Pages/AllStudentDetails'
+import AllEventRegistrations from './Pages/AllEventRegistrations'
+import EventRegistrationDetails from './Pages/EventRegistrationDetails'
 import CourseCreate from './Pages/CourseCreate'
 import CreateSubject from './Pages/CreateSubject'
 import Enquiry from './Pages/Enquiry'
@@ -47,6 +49,8 @@ function App() {
           <Route path="/fee-payment" element={<FeePayment />} />
           <Route path="/all-payments" element={<AllPaymentsDetails />} />
           <Route path="/all-students" element={<AllStudentDetails />} />
+          <Route path="/event-registrations" element={<AllEventRegistrations />} />
+          <Route path="/event-registration-details/:id" element={<EventRegistrationDetails />} />
           <Route path="/upload-documents" element={<StudentUploadDocuments />} />
           <Route path="/institute-upload-documents" element={<InstituteUploadDocuments />} />
           <Route path="/institute-fee-payment" element={<InstituteFeePayment />} />

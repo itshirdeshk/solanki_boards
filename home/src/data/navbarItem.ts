@@ -91,25 +91,30 @@ export const accreditedInstitutes = [
     description: "Our network of partner institutions.",
   },
   {
+    title: "News",
+    href: "/institutes/news",
+    description: "Our news related to partner institutions.",
+  },
+  {
     title: "Partners Program",
-    href: "/institutes/affiliated",
+    href: "/institutes/event-registeration",
     description: "Colleges affiliated with our institution.",
   },
-  {
-    title: "School Accreditation",
-    href: "/institutes/affiliated",
-    description: "Colleges affiliated with our institution.",
-  },
-  {
-    title: "Online Accreditation Form",
-    href: "/accredited-institute-registration",
-    description: "Specialized research institutions.",
-  },
-  {
-    title: "Offline Accreditation Form",
-    href: "/institutes/training",
-    description: "Professional development centers.",
-  },
+  // {
+  //   title: "School Accreditation",
+  //   href: "/institutes/affiliated",
+  //   description: "Colleges affiliated with our institution.",
+  // },
+  // {
+  //   title: "Online Accreditation Form",
+  //   href: "/accredited-institute-registration",
+  //   description: "Specialized research institutions.",
+  // },
+  // {
+  //   title: "Offline Accreditation Form",
+  //   href: "/institutes/training",
+  //   description: "Professional development centers.",
+  // },
 ]
 
 export const admissionItems = [

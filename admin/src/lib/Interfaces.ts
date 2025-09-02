@@ -501,3 +501,73 @@ export interface EnquiryDetails {
   createdAt: Date;
   updatedAt: Date;
 }
+
+export enum EventDocumentType {
+  PROFILE_PICTURE = 'PROFILE_PICTURE',
+  PHOTOGRAPH = 'PHOTOGRAPH',
+  AADHAR_CARD = 'AADHAR_CARD',
+  PAN_CARD = 'PAN_CARD',
+  EDUCATION_CERTIFICATE = 'EDUCATION_CERTIFICATE',
+  EXPERIENCE_LETTER = 'EXPERIENCE_LETTER',
+  PASSPORT = 'PASSPORT',
+  OTHER = 'OTHER'
+}
+
+export interface EventRegistrationDocument {
+  id: string;
+  eventRegistrationId: string;
+  documentType: EventDocumentType;
+  fileName: string;
+  fileUrl: string;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface EventRegistrationPreview {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  registrationNumber: string;
+  paymentStatus: PaymentStatus;
+  paymentAmount: number;
+  optForFood: boolean;
+  createdAt: Date;
+}
+
+export interface EventRegistrationDetails {
+  id: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  dateOfBirth: Date;
+  gender: Gender;
+  address: string;
+  city: string;
+  state: string;
+  pincode: string;
+  country: string;
+  qualification: string | null;
+  instituteName: string | null;
+  occupation: string | null;
+  organizationName: string | null;
+  designation: string | null;
+  guardianName: string | null;
+  guardianPhone: string | null;
+  guardianRelation: string | null;
+  emergencyContactName: string;
+  emergencyContactPhone: string;
+  emergencyContactRelation: string;
+  howDidYouHear: string | null;
+  specialRequirements: string | null;
+  previousExperience: string | null;
+  registrationNumber: string | null;
+  paymentStatus: PaymentStatus;
+  paymentAmount: number;
+  optForFood: boolean;
+  createdAt: Date;
+  updatedAt: Date;
+  documents: EventRegistrationDocument[];
+}

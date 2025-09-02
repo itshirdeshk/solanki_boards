@@ -32,6 +32,7 @@ const IntroVideo = () => {
           </p>
       </div>
     </div>
+    </div>
   );
 };
 

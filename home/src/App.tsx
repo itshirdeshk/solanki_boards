@@ -46,6 +46,8 @@ import FindInstitute from "./pages/home/accredited/FindInstitute";
 import InstitutionalPartnerships from "./pages/home/InstitutionalPartnerships";
 import Certification from "./pages/home/Recognition/Certification";
 import Professors from "./pages/home/council/Professors";
+import NewsPage from "./pages/home/accredited/News";
+import EventRegistration from "./pages/home/registration/EventRegistration";
 
 // Initialize Google Analytics with your tracking ID
 ReactGA.initialize("G-WDZG6SYQFM"); // Replace with your actual Google Analytics measurement ID
@@ -53,12 +55,12 @@ ReactGA.initialize("G-WDZG6SYQFM"); // Replace with your actual Google Analytics
 // Analytics tracking component
 function AnalyticsTracker() {
   const location = useLocation();
-  
+
   useEffect(() => {
     // Track pageview when location changes
     ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
   }, [location]);
-  
+
   return null;
 }
 
@@ -70,14 +72,14 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-    <div className="flex flex-col z-[10]">
-    <FixedNavbar />
-    <Navbar />
-    </div>
-      <div className="mt-[165px] lg:mt-[0px]">
-      {children}
+      <div className="flex flex-col z-[10]">
+        <FixedNavbar />
+        <Navbar />
       </div>
-      <VisitorCounter/>
+      <div className="mt-[165px] lg:mt-[0px]">
+        {children}
+      </div>
+      <VisitorCounter />
       <Footer />
     </>
   );
@@ -92,7 +94,7 @@ function App() {
         <Routes>
           {/* NotFound route without Layout */}
           <Route path="*" element={<NotFound />} />
-          
+
           {/* Routes with Layout (Navbar and Footer) */}
           <Route path="/" element={<Layout><Home /></Layout>} />
           <Route path="/admission" element={<Layout><AdmissionPolicy /></Layout>} />
@@ -102,24 +104,24 @@ function App() {
           <Route path="/institute-registration" element={<Layout><InstituteRegistrationForm /></Layout>} />
           <Route path="/safeguarding-policy" element={<Layout><SafeguardingPolicy /></Layout>} />
           <Route path="/saferrecruitment-policy" element={<Layout><SaferRecruitmentPolicy /></Layout>} />
-n          <Route path="/chairman-message" element={<Layout><ChairmanMessage /></Layout>} />
+          n          <Route path="/chairman-message" element={<Layout><ChairmanMessage /></Layout>} />
           <Route path="/board-profile" element={<Layout><BoardProfile /></Layout>} />
           <Route path="/coe" element={<Layout><COE /></Layout>} />
-          <Route path="/mission-vision" element={<Layout><MissionVision /></Layout>} /> 
-          <Route path="/governing-body" element={<Layout><GoverningBody /></Layout>} /> 
-          <Route path="/executive-committee" element={<Layout><ExcecutiveCommittee /></Layout>} /> 
-          <Route path="/powers-of-sbcodl" element={<Layout><PowersOfSBCODL /></Layout>} /> 
-          <Route path="/bye-laws-rules" element={<Layout><ByeLawsRules /></Layout>} /> 
-          <Route path="/prospectus" element={<Layout><Prospectus /></Layout>} /> 
-          <Route path="/programs/middle-years" element={<Layout><MiddleYears /></Layout>} /> 
-          <Route path="/programs/upper-years" element={<Layout><UpperYears /></Layout>} /> 
-          <Route path="/programs/diploma" element={<Layout><Diploma /></Layout>} /> 
-          <Route path="/programs/ug" element={<Layout><UG /></Layout>} /> 
-          <Route path="/programs/pg" element={<Layout><PG /></Layout>} /> 
-          <Route path="/programs/certificate" element={<Layout><Certificate /></Layout>} /> 
-          <Route path="/programs/research" element={<Layout><Research /></Layout>} /> 
-          <Route path="/faculty" element={<Layout><Faculty /></Layout>} /> 
-          <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} /> 
+          <Route path="/mission-vision" element={<Layout><MissionVision /></Layout>} />
+          <Route path="/governing-body" element={<Layout><GoverningBody /></Layout>} />
+          <Route path="/executive-committee" element={<Layout><ExcecutiveCommittee /></Layout>} />
+          <Route path="/powers-of-sbcodl" element={<Layout><PowersOfSBCODL /></Layout>} />
+          <Route path="/bye-laws-rules" element={<Layout><ByeLawsRules /></Layout>} />
+          <Route path="/prospectus" element={<Layout><Prospectus /></Layout>} />
+          <Route path="/programs/middle-years" element={<Layout><MiddleYears /></Layout>} />
+          <Route path="/programs/upper-years" element={<Layout><UpperYears /></Layout>} />
+          <Route path="/programs/diploma" element={<Layout><Diploma /></Layout>} />
+          <Route path="/programs/ug" element={<Layout><UG /></Layout>} />
+          <Route path="/programs/pg" element={<Layout><PG /></Layout>} />
+          <Route path="/programs/certificate" element={<Layout><Certificate /></Layout>} />
+          <Route path="/programs/research" element={<Layout><Research /></Layout>} />
+          <Route path="/faculty" element={<Layout><Faculty /></Layout>} />
+          <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} />
           <Route path="/ugcourse/:id" element={<Layout><CourseDetailUG /></Layout>} />
           <Route path="/pgcourse/:id" element={<Layout><CourseDetailPG /></Layout>} />
           <Route path="/membership-accreditation" element={<Layout><Membership /></Layout>} />
@@ -133,6 +135,8 @@ n          <Route path="/chairman-message" element={<Layout><ChairmanMessage /><
           <Route path="/institutional-partnerships" element={<Layout><InstitutionalPartnerships /></Layout>} />
           <Route path="/certification" element={<Layout><Certification /></Layout>} />
           <Route path="/professors" element={<Layout><Professors /></Layout>} />
+          <Route path="/institutes/news" element={<Layout><NewsPage /></Layout>} />
+          <Route path="/institutes/event-registeration" element={<Layout><EventRegistration /></Layout>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

@@ -14,6 +14,7 @@ const PaymentPage = () => {
   const [searchParams] = useSearchParams();
   const instituteId = searchParams.get("instituteId");
   const studentId = searchParams.get("studentId");
+  const eventRegistrationId = searchParams.get("eventRegistrationId");
   const name = searchParams.get("name");
   const number = searchParams.get("number");
   const amount = searchParams.get("amount");
@@ -32,7 +33,11 @@ const PaymentPage = () => {
 
       const response = await axios.post(initiatePaymentUrl, {
         amount: amount,
-        [paymentType === 'INSTITUTE' ? 'instituteId' : 'studentId']: paymentType === 'INSTITUTE' ? instituteId : studentId,
+        [paymentType === 'INSTITUTE' ? 'instituteId' : 
+         paymentType === 'STUDENT' ? 'studentId' : 
+         'eventRegistrationId']: paymentType === 'INSTITUTE' ? instituteId : 
+                                 paymentType === 'STUDENT' ? studentId : 
+                                 eventRegistrationId,
         paymentType: paymentType,
         name,
         number

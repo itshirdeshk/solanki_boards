@@ -1,8 +1,10 @@
 export const BASE_URL = "https://sbiea.co.in/api/api";
+// export const BASE_URL = "http://localhost:8080/api";
 
 export const PUBLIC_URL = BASE_URL + '/public';
 
 export const createEnquiryUrl = PUBLIC_URL + '/enquiry';
+export const eventRegistrationUrl = BASE_URL + '/event-registration';
 
 export const ADMIN_BASE_URL = BASE_URL + '/admin';
 export const INSTITUTE_BASE_URL = BASE_URL + '/institute';
