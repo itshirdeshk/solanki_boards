@@ -42,6 +42,7 @@ const AllEventRegistrations = () => {
       }
 
       const params = new URLSearchParams({
+        page: page.toString(),
         sortBy: 'createdAt',
         sortOrder: 'desc'
       })

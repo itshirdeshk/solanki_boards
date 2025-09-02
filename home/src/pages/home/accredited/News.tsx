@@ -14,7 +14,8 @@ import {
 } from "lucide-react";
 
 // Import news images
-import DistanceLearning from "../../../assets/images/certificates/CIAMP_Cert.jpg";
+// import DistanceLearning from "../../../assets/images/certificates/CIAMP_Cert.jpg";
+import CallPaper from "../../../assets/pdf/3rd_sbcodl_conf_call.pdf";
 
 const latestNews = [
   {
@@ -22,95 +23,22 @@ const latestNews = [
     date: "November 2-4, 2025",
     category: "Events",
     summary: "Transforming Education Through Innovation, Accreditation & Accessibility - Join universities, colleges, schools, accreditation agencies, and international partners.",
-    content: `🌐 Solanki Brothers Council for Open and Distance Learning (SBCODL)
-Theme: "Transforming Education Through Innovation, Accreditation & Accessibility"
-
-Special Announcement
-
-On behalf of the Chairman and the Conference Organizing Committee, SBCODL is honored to invite universities, colleges, schools, accreditation agencies, and international partners to participate in the 3rd SBCODL Annual International Conference.
-
-This event provides a unique platform for institutions and accreditation agencies to exchange ideas, strengthen collaborations, and discuss future directions in higher education, open learning, campus-based, hybrid systems, and quality assurance.
-
-Key Focus Areas
-🌍 Global Accreditation & Education Networks
-📡 Technology and the Future of ODL, Hybrid & Campus-Based Education Systems  
-🎓 Adult Lifelong Learning and Inclusive Education Models
-🤝 Quality Assurance & Institutional Accreditation
-📖 Emerging Trends in Higher Education and Research
-
-Who Will Attend
-• International educators and policymakers
-• Representatives of accreditation & quality assurance agencies
-• University and college leaders, school administrators
-• Researchers, scholars, and EdTech innovators
-• SBCODL's global partner institutions
-
-Event Highlights
-• Keynote Addresses by global education leaders
-• Panel Discussions on quality assurance and higher education futures
-• Workshops & Training for educators and administrators
-• Networking Sessions with accreditation bodies and global organizations
-• Launch of SBCODL Global Initiatives 2026
-
-Venue & Participation
-• Hybrid Format: Attend onsite in India or virtually worldwide
-• Venue: Hindustan Hotel, Farrukhabad, Uttar Pradesh, India
-• Dates: 2–4 November 2025
-• Time: 10:00 AM onwards
-• Online Registration: 24 Aug 2025
-• Inquiries: info@sbiea.co.in
-• Contact: +91 9997874343
-
-Call for Papers & Presentations
-We warmly invite universities, colleges, schools, researchers, and practitioners to submit papers, case studies, and presentations aligned with the conference themes. Selected works may also be considered for publication in the SBCODL International Journal of ODL, Hybrid & Campus-Based Education and Quality Assurance.
-
-Submissions should align with one or more sub-themes:
-• Digital innovation and technology-enabled learning
-• Accreditation frameworks for quality assurance in education
-• Open, distance, and online learning for wider accessibility
-• Global partnerships and international collaborations
-• Inclusive education and equitable opportunities
-• Policy, governance, and leadership in education reform
-• Sustainable models for educational transformation
-• Research, innovation, and knowledge sharing in education
-
-Send submissions to: info@sbiea.co.in
-
-Conference Objectives
-• Explore innovative practices reshaping global education
-• Examine the role of accreditation in ensuring quality and trust
-• Promote accessibility and inclusivity in education
-• Strengthen international collaborations and knowledge sharing
-• Discuss strategies for future-ready education systems
-
-This conference will gather Ministers of Education, policymakers, university and accreditation leaders, researchers, educators, EdTech innovators, students, youth leaders, NGOs, and non-profits to foster dialogue, collaboration, and actionable solutions for inclusive, high-quality education worldwide.`,
+    content: 'The 3rd SBCODL Annual International Conference is set to take place from November 2-4, 2025, at the Solanki Board Centre for Open and Distance Learning (SBCODL). For more details, check out the conference call for papers documents below.',
     featured: true,
     icon: Globe,
-    images: [
-      DistanceLearning,
-    ],
+    images: [],
     // Optional PDF attachments - only shows when provided
     pdfs: [
       {
-        title: "Conference Brochure",
-        url: "/assets/documents/SBCODL-Conference-2025-Brochure.pdf",
+        title: "Conference Call for Papers",
+        url: CallPaper,
         description: "Complete conference program and details"
       },
-      {
-        title: "Call for Papers Guidelines",
-        url: "/assets/documents/SBCODL-Call-for-Papers-2025.pdf", 
-        description: "Detailed submission guidelines and themes"
-      },
-      {
-        title: "Registration Form",
-        url: "/assets/documents/SBCODL-Registration-Form-2025.pdf",
-        description: "Printable registration form"
-      }
     ],
     ctaLink: {
       url: "/event-registration",
       title: "Register for Conference",
-      external: false
+      external: true
     }
   }
 ];
@@ -119,7 +47,7 @@ const NewsPage = ({
   pageTitle = "Latest News & Updates"
 }) => {
   const featuredNews = latestNews.filter(news => news.featured);
-  
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -205,7 +133,7 @@ const NewsPage = ({
                         <p className="text-gray-600 mb-3">{news.summary}</p>
                         <p className="text-gray-700 text-sm mb-4">{news.content}</p>
                       </div>
-                      
+
                       {/* Multiple Images Section */}
                       {news.images && news.images.length > 0 && (
                         <div className="space-y-3">
@@ -240,7 +168,7 @@ const NewsPage = ({
                           </div>
                         </div>
                       )}
-                      
+
                       {/* PDF Documents Section */}
                       {news.pdfs && news.pdfs.length > 0 && (
                         <div className="space-y-3">
@@ -273,7 +201,7 @@ const NewsPage = ({
                           </div>
                         </div>
                       )}
-                      
+
                       {/* Call to Action Button */}
                       {news.ctaLink && (
                         <div className="pt-4 border-t border-blue-100">
@@ -324,7 +252,7 @@ const NewsPage = ({
                       <p className="text-gray-600 mb-2">{news.summary}</p>
                       <p className="text-gray-700 text-sm mb-4">{news.content}</p>
                     </div>
-                    
+
                     {/* Multiple Images Section */}
                     {news.images && news.images.length > 0 && (
                       <div className="space-y-3">
@@ -394,7 +322,7 @@ const NewsPage = ({
                         </div>
                       </div>
                     )}
-                    
+
                     {/* Call to Action Button */}
                     {news.ctaLink && (
                       <div className="pt-3 mt-3 border-t border-gray-200">

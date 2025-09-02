@@ -3,9 +3,6 @@ import { Badge } from "../../../components/ui/badge";
 import { Separator } from "../../../components/ui/separator";
 import { Alert, AlertTitle, AlertDescription } from "../../../components/ui/alert";
 import {
-  User,
-  GraduationCap,
-  Briefcase,
   Upload,
   Camera,
   CheckCircle,
@@ -315,7 +312,7 @@ const EventRegistration = () => {
     let totalFiles = 0;
 
     // Count total files first
-    for (const [documentType, file] of Object.entries(uploadedFiles)) {
+    for (const [, file] of Object.entries(uploadedFiles)) {
       if (file) {
         totalFiles++;
       }

@@ -1,6 +1,4 @@
-import { Button } from "./ui/button";
 import video from "../assets/videos/introVideo.mp4";
-import { Link } from "react-router-dom";
 
 const IntroVideo = () => {
   return (

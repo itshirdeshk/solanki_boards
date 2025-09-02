@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card";
-import { Badge } from "../components/ui/badge";
-import { CheckCircle, Download, ArrowRight, Home } from 'lucide-react';
+import { CheckCircle, ArrowRight, Home } from 'lucide-react';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 
 const PaymentSuccess = () => {
   const [searchParams] = useSearchParams();
@@ -10,7 +10,6 @@ const PaymentSuccess = () => {
   const [countdown, setCountdown] = useState(10);
 
   const paymentType = searchParams.get("type");
-  const id = searchParams.get("id");
 
   useEffect(() => {
     const timer = setInterval(() => {
