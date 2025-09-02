@@ -220,6 +220,7 @@ const EventRegistration = () => {
 
         // Upload documents if any files are selected
         let documentsUploaded = true;
+        let failedDocument = '';
         try {
           const hasFiles = Object.values(uploadedFiles).some(file => file !== null);
           if (hasFiles) {
@@ -234,6 +235,7 @@ const EventRegistration = () => {
         } catch (uploadError: any) {
           console.error("Document upload failed:", uploadError);
           documentsUploaded = false;
+          failedDocument = uploadError.message || 'Unknown document';
           
           // Show a warning but don't stop the registration process
           await Swal.fire({
@@ -243,6 +245,7 @@ const EventRegistration = () => {
               <div class="text-left">
                 <p>Your registration was successful, but some documents could not be uploaded.</p>
                 <p><strong>Registration Number:</strong> ${registrationNumber}</p>
+                <p><strong>Failed Document:</strong> ${failedDocument}</p>
                 <br>
                 <p>You can upload your documents later or contact support for assistance.</p>
               </div>
@@ -308,26 +311,53 @@ const EventRegistration = () => {
   };
 
   const uploadDocuments = async (regId: string) => {
-    const uploadPromises = [];
+    let uploadedCount = 0;
+    let totalFiles = 0;
 
+    // Count total files first
     for (const [documentType, file] of Object.entries(uploadedFiles)) {
       if (file) {
-        const formData = new FormData();
-        formData.append('document', file);
-        formData.append('documentType', getDocumentType(documentType));
-
-        uploadPromises.push(
-          axios.post(`${eventRegistrationUrl}/${regId}/upload-document`, formData, {
-            headers: {
-              'Content-Type': 'multipart/form-data'
-            }
-          })
-        );
+        totalFiles++;
       }
     }
 
-    if (uploadPromises.length > 0) {
-      await Promise.all(uploadPromises);
+    if (totalFiles === 0) {
+      return; // No files to upload
+    }
+
+    // Upload documents one by one to avoid SFTP timeout
+    for (const [documentType, file] of Object.entries(uploadedFiles)) {
+      if (file) {
+        try {
+          uploadedCount++;
+          
+          // Update loading message with progress
+          Swal.update({
+            title: 'Uploading Documents',
+            text: `Uploading ${documentType.replace(/([A-Z])/g, ' $1').toLowerCase()} (${uploadedCount} of ${totalFiles})...`
+          });
+
+          const formData = new FormData();
+          formData.append('document', file);
+          formData.append('documentType', getDocumentType(documentType));
+
+          await axios.post(`${eventRegistrationUrl}/${regId}/upload-document`, formData, {
+            headers: {
+              'Content-Type': 'multipart/form-data'
+            },
+            timeout: 30000 // 30 second timeout per file
+          });
+
+          // Small delay between uploads to prevent server overload
+          if (uploadedCount < totalFiles) {
+            await new Promise(resolve => setTimeout(resolve, 500));
+          }
+
+        } catch (error) {
+          console.error(`Failed to upload ${documentType}:`, error);
+          throw new Error(`Failed to upload ${documentType.replace(/([A-Z])/g, ' $1').toLowerCase()}`);
+        }
+      }
     }
   };
 
@@ -734,14 +764,6 @@ const EventRegistration = () => {
               />
 
               <FileUploadComponent
-                label="Passport Size Photo"
-                fileType="photograph"
-                icon={User}
-                accept="image/*"
-                required
-              />
-
-              <FileUploadComponent
                 label="Aadhar Card"
                 fileType="aadharCard"
                 icon={CreditCard}
@@ -753,21 +775,6 @@ const EventRegistration = () => {
                 label="PAN Card"
                 fileType="panCard"
                 icon={CreditCard}
-                accept="image/*,application/pdf"
-              />
-
-              <FileUploadComponent
-                label="Education Certificate"
-                fileType="educationCertificate"
-                icon={GraduationCap}
-                accept="image/*,application/pdf"
-                required
-              />
-
-              <FileUploadComponent
-                label="Experience Letter"
-                fileType="experienceLetter"
-                icon={Briefcase}
                 accept="image/*,application/pdf"
               />
             </div>
