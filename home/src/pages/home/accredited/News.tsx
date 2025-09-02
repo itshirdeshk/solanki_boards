@@ -63,7 +63,7 @@ const NewsPage = ({
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Stay updated with the latest developments, achievements, and announcements
-              from Solanki Board Centre for Open and Distance Learning.
+              from Solanki Brothers Council of Open and Distance Learning.
             </p>
           </div>
         </div>

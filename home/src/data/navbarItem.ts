@@ -85,7 +85,7 @@ export const programDropdownItems = [
 ]
 
 export const accreditedInstitutes = [
-  {
+{
     title: "Find Accredited",
     href: "/institutes/find",
     description: "Our network of partner institutions.",
@@ -97,7 +97,7 @@ export const accreditedInstitutes = [
   },
   {
     title: "Partners Program",
-    href: "/institutes/event-registeration",
+    href: "/institutes/event-registration",
     description: "Colleges affiliated with our institution.",
   },
   // {
