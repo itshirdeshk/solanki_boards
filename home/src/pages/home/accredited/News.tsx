@@ -36,7 +36,7 @@ const latestNews = [
       },
     ],
     ctaLink: {
-      url: "/event-registration",
+      url: "/institutes/event-registration",
       title: "Register for Conference",
       external: true
     }
