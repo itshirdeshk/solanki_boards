@@ -136,7 +136,7 @@ function App() {
           <Route path="/certification" element={<Layout><Certification /></Layout>} />
           <Route path="/professors" element={<Layout><Professors /></Layout>} />
           <Route path="/institutes/news" element={<Layout><NewsPage /></Layout>} />
-          <Route path="/institutes/event-registeration" element={<Layout><EventRegistration /></Layout>} />
+          <Route path="/institutes/event-registration" element={<Layout><EventRegistration /></Layout>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
