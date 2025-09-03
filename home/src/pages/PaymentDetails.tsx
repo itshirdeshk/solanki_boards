@@ -29,8 +29,7 @@ interface EventRegistrationPaymentDetails {
     bankTransactionId?: string;
     bankId?: string;
     utr?: string;
-    createdAt: string;
-    updatedAt: string;
+    date: string;
 }
 
 export const PaymentDetails: React.FC = () => {
@@ -185,7 +184,7 @@ export const PaymentDetails: React.FC = () => {
                     <div className="border-t-2 border-b-2 border-blue-200 my-4 py-3">
                         <p className="text-base text-gray-700 font-medium">Receipt No: {paymentDetails.merchantTransactionId || 'N/A'}</p>
                         <p className="text-base text-gray-700 font-medium">Registration No: {paymentDetails.registrationNumber || 'N/A'}</p>
-                        <p className="text-sm text-gray-600">Date: {new Date(paymentDetails.createdAt).toLocaleDateString()}</p>
+                        <p className="text-sm text-gray-600">Date: {new Date(paymentDetails.date).toLocaleDateString()}</p>
                     </div>
                 </div>
 
