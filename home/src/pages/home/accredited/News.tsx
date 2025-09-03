@@ -55,7 +55,7 @@ const NewsPage = ({
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative max-w-6xl mx-auto px-4 py-16 sm:py-24">
           <div className="text-center">
-            <Badge className="mb-4 bg-gray-100 text-primary">
+            <Badge className="mb-4 bg-gray-100 text-primary hover:text-white">
               SBCODL
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
@@ -63,7 +63,7 @@ const NewsPage = ({
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Stay updated with the latest developments, achievements, and announcements
-              from Solanki Brothers Council of Open and Distance Learning.
+              from Solanki Brothers Council for Open and Distance Learning.
             </p>
           </div>
         </div>

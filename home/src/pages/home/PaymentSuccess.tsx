@@ -8,7 +8,7 @@ const PaymentSuccess = () => {
 
   const paymentType = searchParams.get("type");
   const paymentStatus = searchParams.get("status") || "success"; // Default to success for backward compatibility
-  const eventRegistrationId = searchParams.get("id");
+  // const eventRegistrationId = searchParams.get("id");
 
   const getSuccessMessage = () => {
     if (paymentType === 'EVENT_REGISTRATION') {
@@ -160,7 +160,7 @@ const PaymentSuccess = () => {
               
               {paymentType === 'EVENT_REGISTRATION' && type === 'success' && (
                 <button
-                  onClick={() => navigate('/events')}
+                  onClick={() => navigate('/institutes/news')}
                   className="flex items-center justify-center gap-2 px-6 py-3 border border-gray-300 hover:border-gray-400 text-gray-700 rounded-lg font-medium transition-colors"
                 >
                   <ArrowRight className="w-4 h-4" />
@@ -178,7 +178,7 @@ const PaymentSuccess = () => {
                 </button>
               )}
 
-              {paymentType === 'EVENT_REGISTRATION' && eventRegistrationId && (type === 'success' || type === 'pending') && (
+              {/* {paymentType === 'EVENT_REGISTRATION' && eventRegistrationId && (type === 'success' || type === 'pending') && (
                 <button
                   onClick={() => navigate(`/payment-details?type=${paymentType}&id=${eventRegistrationId}`)}
                   className="flex items-center justify-center gap-2 px-6 py-3 border border-blue-300 hover:border-blue-400 text-blue-700 rounded-lg font-medium transition-colors"
@@ -186,7 +186,7 @@ const PaymentSuccess = () => {
                   <ArrowRight className="w-4 h-4" />
                   View Receipt
                 </button>
-              )}
+              )} */}
             </div>
 
             <div className="border-t border-gray-200 pt-6">

@@ -20,6 +20,9 @@ const PaymentPage = () => {
   const amount = searchParams.get("amount");
   const paymentType = searchParams.get("paymentType");
 
+  // Set fixed amount for event registration payments
+  const paymentAmount = paymentType === 'EVENT_REGISTRATION' ? '5000' : amount;
+
   const handlePhonePePayment = async () => {
     try {
       Swal.fire({
@@ -32,7 +35,7 @@ const PaymentPage = () => {
       });
 
       const response = await axios.post(initiatePaymentUrl, {
-        amount: amount,
+        amount: paymentAmount,
         [paymentType === 'INSTITUTE' ? 'instituteId' : 
          paymentType === 'STUDENT' ? 'studentId' : 
          'eventRegistrationId']: paymentType === 'INSTITUTE' ? instituteId : 
@@ -92,7 +95,7 @@ const PaymentPage = () => {
                 <h3 className="text-2xl font-semibold text-gray-900">Payment Amount</h3>
                 <div className="flex items-center justify-center gap-2">
                   <IndianRupee className="h-6 w-6 text-gray-600" />
-                  <span className="text-4xl font-bold text-gray-900">{amount}</span>
+                  <span className="text-4xl font-bold text-gray-900">{paymentAmount}</span>
                 </div>
               </div>
 

@@ -213,7 +213,7 @@ const EventRegistration = () => {
       const response = await axios.post(`${eventRegistrationUrl}/register`, registrationData);
 
       if (response.data.success) {
-        const { id, registrationNumber, paymentAmount } = response.data.data;
+        const { id, registrationNumber } = response.data.data;
 
         // Upload documents if any files are selected
         let documentsUploaded = true;
@@ -260,7 +260,7 @@ const EventRegistration = () => {
             html: `
               <div class="text-left">
                 <p><strong>Registration Number:</strong> ${registrationNumber}</p>
-                <p><strong>Registration Fee:</strong> ₹${paymentAmount}</p>
+                <p><strong>Registration Fee:</strong> ₹5000</p>
                 <br>
                 <p>You will now be redirected to the payment page to complete your registration.</p>
               </div>
@@ -275,7 +275,6 @@ const EventRegistration = () => {
           eventRegistrationId: id,
           name: `${formData.firstName} ${formData.lastName}`,
           number: formData.phone,
-          amount: paymentAmount.toString(),
           paymentType: 'EVENT_REGISTRATION'
         });
 
@@ -933,7 +932,7 @@ const EventRegistration = () => {
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative max-w-6xl mx-auto px-4 py-16 sm:py-24">
           <div className="text-center">
-            <Badge className="mb-4 bg-gray-100 text-primary hover:bg-blue-500/30">
+            <Badge className="mb-4 bg-gray-100 text-primary hover:text-white">
               SBCODL
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
