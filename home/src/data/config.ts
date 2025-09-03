@@ -19,7 +19,7 @@ export const studentAdmissionUrl = STUDENT_BASE_URL + '/admission';
 export const initiatePaymentUrl = PAYMENT_BASE_URL + '/initiate-payment';
 export const paymentStatusUrl = PAYMENT_BASE_URL + '/check-payment-status';
 export const verifyPaymentUrl = PAYMENT_BASE_URL + '/verify-payment';
-export const getPaymentDetailsUrl = PAYMENT_BASE_URL + '/details';
+export const getPaymentDetailsUrl = PAYMENT_BASE_URL + '/get-payment-details';
 
 export const fetchallinstitutesUrl = INSTITUTE_BASE_URL + '/all';
 export const instituteFetchUrl = PUBLIC_URL + '/institute/list';
