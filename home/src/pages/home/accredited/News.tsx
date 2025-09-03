@@ -55,7 +55,7 @@ const NewsPage = ({
         <div className="absolute inset-0 bg-black/20" />
         <div className="relative max-w-6xl mx-auto px-4 py-16 sm:py-24">
           <div className="text-center">
-            <Badge className="mb-4 bg-gray-100 text-primary hover:bg-blue-500/30">
+            <Badge className="mb-4 bg-gray-100 text-primary">
               SBCODL
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">

@@ -48,6 +48,7 @@ import Certification from "./pages/home/Recognition/Certification";
 import Professors from "./pages/home/council/Professors";
 import NewsPage from "./pages/home/accredited/News";
 import EventRegistration from "./pages/home/registration/EventRegistration";
+import { PaymentDetails } from "./pages/PaymentDetails";
 
 // Initialize Google Analytics with your tracking ID
 ReactGA.initialize("G-WDZG6SYQFM"); // Replace with your actual Google Analytics measurement ID
@@ -137,6 +138,7 @@ function App() {
           <Route path="/professors" element={<Layout><Professors /></Layout>} />
           <Route path="/institutes/news" element={<Layout><NewsPage /></Layout>} />
           <Route path="/institutes/event-registration" element={<Layout><EventRegistration /></Layout>} />
+          <Route path="/payment-details" element={<Layout><PaymentDetails /></Layout>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
