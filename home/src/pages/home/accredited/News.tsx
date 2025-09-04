@@ -23,7 +23,43 @@ const latestNews = [
     date: "November 2-4, 2025",
     category: "Events",
     summary: "Transforming Education Through Innovation, Accreditation & Accessibility - Join universities, colleges, schools, accreditation agencies, and international partners.",
-    content: 'The 3rd SBCODL Annual International Conference is set to take place from November 2-4, 2025, at the Solanki Board Centre for Open and Distance Learning (SBCODL). For more details, check out the conference call for papers document below.',
+    content: '3rd SBCODL Annual International Conference
+Theme: Transforming Education Through Innovation, Accreditation & Accessibility
+📅 November 2–4, 2025
+📍 Virtual & Hybrid (Hosted from Farrukhabad, Uttar Pradesh, India)
+🌐 Website: www.sbiea.co.in
+
+Day 1 – Sunday, 2nd November 2025
+Theme: Transforming Education Through Innovation, Accreditation & Accessibility
+
+Time (IST)	Session Description	Speakers / Participants
+09:30 – 10:00 AM	Opening Ceremony & Welcome Address	Dr. Arvind Singh, President, SBCODL
+Guest of Honor Address: “Pathways of International Accreditation in Higher Education”	Dr. Escalante (UDUALC / CEAI)
+10:00 – 11:00 AM	Keynote Session: “Regional Collaboration and Pathways of International Accreditation in Higher Education”	Dr. Escalante (UDUALC / CEAI)
+11:15 – 12:30 PM	Panel Session I – Strengthening Global Partnerships in Accreditation	Experts from SBCODL, QAHE, ARIA, BQS
+12:30 – 01:30 PM	Lunch / Break	
+01:30 – 03:00 PM	Roundtable Dialogue I – Innovation in Open & Distance Education: Quality Benchmarks & Regulatory Challenges	Conference Experts
+03:15 – 04:30 PM	Networking Session & Bilateral Meetings with International Partners	Delegates and Partners
+Day 2 – Monday, 3rd November 2025
+Theme: Quality Assurance & Evaluation Frameworks
+
+Time (IST)	Session Description	Speakers / Participants
+09:30 – 10:30 AM	Special Plenary Session: “The Role of CEAI and UDUALC in Promoting Quality Assurance across Latin America and Beyond”	Dr. Escalante
+10:45 – 12:30 PM	Panel Session II – Mutual Recognition of Accreditation Standards	Representatives from LAM-PTKes, AKKORK, EAHEA, QAHE
+12:30 – 01:30 PM	Lunch / Break	
+01:30 – 03:00 PM	Workshop I – International Mechanisms for Peer Evaluation & Accreditation Audits	Workshop Facilitators
+03:15 – 04:30 PM	Collaborative Consultation on Draft Global Roadmap for Dual Accreditation Systems	Panel and Participants
+Note: Dr. Escalante concludes his participation on this day.
+
+Day 3 – Tuesday, 4th November 2025
+Theme: Innovations & Future of Global Education
+
+Time (IST)	Session Description	Speakers / Participants
+09:30 – 10:30 AM	Keynote Session: “Artificial Intelligence and the Future of Accreditation”	Keynote Speaker
+10:45 – 12:30 PM	Panel Session III – Digital Learning Ecosystems & Hybrid Accreditation Models	Panelists
+12:30 – 01:30 PM	Lunch / Break	
+01:30 – 03:00 PM	Workshop II – Capacity Building for Faculty Development in the Global South	Workshop Facilitators
+03:15 – 04:00 PM	Closing Ceremony, Summary, and Release of Joint Resolutions	Conference Chair and Organizing Committee
     featured: true,
     icon: Globe,
     images: [],
@@ -90,7 +126,7 @@ const NewsPage = ({
                   <AlertTitle className="text-blue-800">News Updates</AlertTitle>
                   <AlertDescription className="text-blue-700">
                     Follow our news section for regular updates on admissions, events,
-                    partnerships, and student achievements.
+                    Dual Accreditation Systems, and student achievements.
                   </AlertDescription>
                 </Alert>
               </div>
