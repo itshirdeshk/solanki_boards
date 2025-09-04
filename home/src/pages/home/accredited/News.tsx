@@ -25,9 +25,9 @@ const latestNews = [
     summary: "Transforming Education Through Innovation, Accreditation & Accessibility - Join universities, colleges, schools, accreditation agencies, and international partners.",
     content: '3rd SBCODL Annual International Conference
 Theme: Transforming Education Through Innovation, Accreditation & Accessibility
-📅 November 2–4, 2025
-📍 Virtual & Hybrid (Hosted from Farrukhabad, Uttar Pradesh, India)
-🌐 Website: www.sbiea.co.in
+ November 2–4, 2025
+ Virtual & Onsite (Hosted from Farrukhabad, Uttar Pradesh, India)
+ Website: www.sbiea.co.in Email :- info@sbiea.co.in
 
 Day 1 – Sunday, 2nd November 2025
 Theme: Transforming Education Through Innovation, Accreditation & Accessibility
