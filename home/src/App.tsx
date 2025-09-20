@@ -40,7 +40,7 @@ import Membership from "./pages/home/Recognition/Membership";
 import PaymentPage from "./pages/home/PaymentPage";
 import Recognition from "./pages/home/Recognition/Recognition";
 import Constitutional from "./pages/home/Recognition/Constitutional";
-import Autonomous from "./pages/home/Recognition/autonomous";
+import Autonomous from "./pages/home/Recognition/IEQSAA";
 import VisitorCounter from "./components/VisitorCounter";
 import FindInstitute from "./pages/home/accredited/FindInstitute";
 import InstitutionalPartnerships from "./pages/home/InstitutionalPartnerships";
