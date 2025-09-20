@@ -1,7 +1,7 @@
 import { Card, CardContent } from "../../../components/ui/card"
 import { Separator } from "../../../components/ui/separator"
 
-const Recognition = () => {
+const RecognitionLegitimacy = () => {
   return (
     <div className=" px-4 py-12 bg-white ">
       <div className="max-w-5xl mx-auto">
@@ -14,7 +14,7 @@ const Recognition = () => {
         <Card className="mb-8 shadow-lg border-t-4 border-t-primary">
           <CardContent className="pt-6">
             <p className="text-lg leading-relaxed mb-4">
-              <span className="font-semibold text-white">The Solanki Brothers Council for Open and Distance Learning (SBCODL) is a non-governmental, non-profit, and independent educational quality assurance and accreditation agency, established in 2022 under the Government of India. SBCODL serves both as a national and international body committed to advancing academic quality, access, and innovation across open, distance, hybrid, campus-based, vocational, and lifelong learning systems.
+              <span className="font-semibold text-white">The Solanki Brothers Council for Open and Distance Learning (SBCODL) is a non-governmental, non-profit, and independent educational quality assurance and accreditation agency, established in 2022 under the Government of India. SBCODL serves both as a national and international body committed to advancing academic quality, access, and innovation across open, distance, hybrid, campus-based, vocational, and lifelong learning systems.</span>
             </p>
             
             <p className="mb-4">
@@ -78,7 +78,8 @@ const Recognition = () => {
           <Card className="mb-6 shadow-md">
             <CardContent className="pt-6">
               <p className="mb-4">
-                The concept of open and distance education originated in Berlin in 1856 and was later adopted by Russia and the United Kingdom. Inspired by British Prime Minister Harold Wilson’s vision (1863), the UK established the Open University in 1969, which became a model for global ODL.
+                The concept of open and distance education originated in Berlin in 1856 and was later adopted by Russia and the United Kingdom. Inspired by the vision of British Prime Minister Harold Wilson in the 1960s, the UK established the Open University in 1969, which became a model for global ODL.
+              </p>
               
               <p className="mb-4">
                 In India, the National Education Policy (1986) placed emphasis on open universities and distance education, a mission that SBCODL continues to advance.
@@ -113,19 +114,17 @@ const Recognition = () => {
               <p className="mb-4 bg-green-100 p-2 rounded-md text-primary">
                Through this framework, SBCODL provides institutional accreditation, program accreditation, and membership opportunities, reinforcing accountability, credibility, and continuous improvement.
               </p>
-              </CardContent>
-              </Card>
-              <Separator />
-              
-              <p className="mb-4 bg-green-100 p-2 rounded-md text-primary">
-                Conclusion
-              </p>
-              
-              <p className="mb-4">
-                The idea of distance education was first developed in Berlin, Germany, in 1856. Subsequently, Russia recognized distance education, and it became a global phenomenon. British Prime Minister Harold Wilson envisioned the idea of open universities in 1863 with the intention of offering educational services to those who otherwise were denied access. In 1969, an Open University was established in the UK under a Royal Charter, which was more successful than conventional universities.
-              </p>
             </CardContent>
           </Card>
+          <Separator />
+          
+          <p className="mb-4 bg-green-100 p-2 rounded-md text-primary">
+            Conclusion
+          </p>
+          
+          <p className="mb-4">
+            As previously mentioned, the origins of distance education trace back to Berlin in 1856 and its subsequent global adoption, including the establishment of the UK Open University in 1969. These milestones continue to inspire SBCODL’s commitment to accessible and transformative education for all.
+          </p>
           
           <Card className="shadow-md">
             <CardContent className="pt-6">
@@ -137,9 +136,7 @@ const Recognition = () => {
                By combining national constitutional legitimacy with international standards and recognition, SBCODL ensures that every learner, regardless of their background, has the opportunity to receive quality education that is credible, recognized, and transformative.
               </p>
               
-              <div className="bg-green-100 text-primary p-4 rounded-lg border-l-4 border-indigo-500">
-                
-              </div>
+              {/* Removed empty div to clean up markup */}
             </CardContent>
           </Card>
         </div>
@@ -148,4 +145,4 @@ const Recognition = () => {
   )
 }
 
-export default Recognition
+export default RecognitionLegitimacy;
