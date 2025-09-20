@@ -9,7 +9,7 @@ const BoardProfile = () => {
         <h1 className="text-4xl font-bold text-primary mb-2">
           Solanki Brothers Council for Open and Distance Learning (SBCODL)
         </h1>
-        <p className="text-xl text-primary">Empowering Learners, Enriching Lives</p>
+        <p className="text-xl text-primary">“Connecting Minds, Ensuring Quality, Transforming Education”</p>
       </div>
       <Separator />
 
@@ -30,7 +30,6 @@ Our mission is to advance accessible, equitable, and high-quality education acro
           <ul className="list-disc list-inside text-md space-y-2">
           <li>Institutional Accreditation – assuring standards of quality and excellence.</li>
           <li>Program Accreditation – evaluating the academic rigor of specific courses and degrees.</li>
-          <li>Institutional Membership – fostering collaboration and global partnerships.</li>
           <li>Evaluation Services & Institutional Audits – promoting transparency and accountability.</li>
           <li>Capacity-Building Initiatives – strengthening leadership, governance, and academic practices.</li>
           </ul>
@@ -67,15 +66,18 @@ Our mission is to advance accessible, equitable, and high-quality education acro
         <CardContent>
           <h3 className="font-semibold mb-2">Vision</h3>
           <p className="text-md mb-4">
-            To be a globally recognized leader in open, distance, and inclusive education, fostering academic excellence, innovation, and international collaboration to empower learners and institutions worldwide.
+            To be a globally recognized leader in advancing equitable, inclusive, and innovative education by fostering excellence in Open and Distance Learning (ODL), hybrid, and campus-based systems—empowering every learner, regardless of background, to realize their full potential from school through higher education.
           </p>
           <h3 className="font-semibold mb-2">Mission</h3>
+          <p className="text-md mb-2">
+            SBCODL is dedicated to transforming education by:
+          </p>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>To provide accessible, equitable, and quality education across all levels, from school to higher education.</li>
-            <li>To establish and strengthen global partnerships that promote knowledge exchange, accreditation, and international cooperation.</li>
-            <li>To act as an independent accreditation and quality assurance body, upholding the highest standards of governance, transparency, and accountability.</li>
-            <li>To nurture lifelong learning opportunities through innovative pedagogy, research, and technology integration.</li>
-            <li>To contribute towards the creation of a globally competent and ethically responsible academic community.</li>
+            <li>Promoting Access – Expanding high-quality learning opportunities for diverse communities through flexible, technology-enabled modes of delivery.</li>
+            <li>Establishing Accreditation Systems – Building robust accreditation and quality assurance frameworks to uphold academic standards across ODL, hybrid, and campus-based institutions.</li>
+            <li>Capacity-Building – Supporting educators, institutions, and administrators to foster continuous improvement, innovation, and professional development.</li>
+            <li>Global Recognition – Enhancing the credibility and competitiveness of Indian and international educational programs through recognition, membership, and quality benchmarking.</li>
+            <li>Learner-Centric Outcomes – Equipping students with the knowledge, skills, and values required to succeed in a dynamic and interconnected world.</li>
           </ul>
         </CardContent>
       </Card>
@@ -89,7 +91,7 @@ Our mission is to advance accessible, equitable, and high-quality education acro
         <CardContent>
           <h4 className="font-semibold mb-1">Higher Education Programs</h4>
           <ul className="list-disc list-inside text-md mb-2 space-y-1">
-            <li>Undergraduate and postgraduate degrees &amp; Ph.D</li>
+            <li>Undergraduate and postgraduate degrees & Ph.D</li>
             <li>Professional diplomas and continuing education programs</li>
           </ul>
           <h4 className="font-semibold mb-1">Certificate and Vocational Programs</h4>
@@ -129,23 +131,73 @@ Our mission is to advance accessible, equitable, and high-quality education acro
       </Card>
       <Separator />
 
-      {/* 6. Quality Assurance, Evaluation, and Accreditation Services */}
+      {/* 6. Program Accreditation */}
       <Card>
         <CardHeader>
-          <CardTitle>VI. Quality Assurance, Evaluation, and Accreditation Services</CardTitle>
+          <CardTitle>VI. SBCODL evaluates and accredits programs of study offered by higher education institutions (HEIs), focusing on innovation, internationalization, and entrepreneurship.</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-md mb-2">
-            SBCODL serves as an emerging national and international quality assurance body. Key offerings include:
+           Key Standards for Program Accreditation:
           </p>
           <ul className="list-disc list-inside text-md space-y-2">
-            <li>Institutional Accreditation: School, college, and training centre.</li>
-            <li>Program Evaluation: Course-level quality benchmarking</li>
-            <li>Capacity-Building: QA workshops, evaluator training, and leadership seminars</li>
-            <li>Academic Audits: Self-study reviews, peer evaluations, and reporting</li>
-            <li>Compliance Audits: Alignment with NEP 2020, SDGs, and global standards</li>
-            <li>Full-Site Visits: On-site or virtual inspections of learning centres, school, college and University, infrastructure, and QA mechanisms</li>
-            <li>Quality Assurance Reports: Detailed institutional and program-level findings, strengths, gaps, and actionable recommendations</li>
+            <li>Institutional Overview.</li>
+            <li>Ethics & Diversity</li>
+            <li>Strategic Program Design</li>
+            <li>Quality Assurance & Continuous Improvement</li>
+            <li>Faculty & Staff Qualifications</li>
+            <li>Stakeholder Involvement</li>
+            <li>Teaching & Learning Outcomes</li>
+            <li>Program Handbook & Transparency</li>
+          </ul>
+        </CardContent>
+      </Card>
+      <Separator />
+
+      {/* 6. Institutional Accreditation */}
+      <Card>
+        <CardHeader>
+          <CardTitle>VI. SBCODL grants institutional accreditation, membership, and quality labels to HEIs that demonstrate compliance with national and international standards.</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-md mb-2">
+           Key Standards for Institutional Accreditation:
+          </p>
+          <ul className="list-disc list-inside text-md space-y-2">
+            <li>Mission & Objectives</li>
+            <li>Governance & Administration</li>
+            <li>Quality Assurance Management</li>
+            <li>Teaching & Learning Systems</li>
+            <li>Student Support Services</li>
+            <li>Resources & Facilities</li>
+            <li>Financial Planning & Transparency</li>
+            <li>Employment Processes & HR Policies</li>
+            <li>Research & Knowledge Contribution</li>
+          </ul>
+        </CardContent>
+      </Card>
+      <Separator />
+
+      {/* 6. Internal Quality Assurance (IQA) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>VI. SBCODL emphasizes that every institution must operate its own Internal Quality Assurance (IQA) mechanisms to ensure sustainability of academic and administrative quality.</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-md mb-2">
+           Key IQA Elements:
+          </p>
+          <ul className="list-disc list-inside text-md space-y-2">
+            <li>Policy-based QA framework</li>
+            <li>Regular self-assessment of programs</li>
+            <li>Continuous monitoring & evaluation</li>
+            <li>Internal Quality Assurance Cell (IQAC)</li>
+            <li>Stakeholder feedback integration</li>
+            <li>Peer reviews & internal audits</li>
+            <li>Capacity building for faculty and staff</li>
+            <li>Transparent documentation and reporting</li>
+            <li>Corrective actions and structured follow-up</li>
+            <li>Alignment with external QA and global standards</li>
           </ul>
         </CardContent>
       </Card>
