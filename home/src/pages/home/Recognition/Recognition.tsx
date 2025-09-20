@@ -22,7 +22,7 @@ const RecognitionLegitimacy = () => {
             </p>
             
             <p className="mb-4 bg-green-100 text-primary p-2 rounded-md border-l-4 border-blue-500">
-             Legal and Constitutional Basis <span className="italic">(For detailed information, see AIR 1993 SC 2178.)</span>
+             Legal and Constitutional Basis 
             </p>
           </CardContent>
         </Card>
