@@ -1,7 +1,7 @@
 import { Card, CardContent } from "../../../components/ui/card";
 import { Separator } from "../../../components/ui/separator";
 
-export function IEQSAA(Independent Educational Quality Assurance and Accreditation Agency) {
+export function IEQSAA() {
   return (
     <Card>
       <CardContent>
